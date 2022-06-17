@@ -1,2 +1,3 @@
 # Applied-Statistics-R
-Teaching Page
+
+## Data handling
