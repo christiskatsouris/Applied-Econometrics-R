@@ -13,4 +13,6 @@ In this teaching page, we explain some key examples relevant to some application
 
 A model formula in R has the following form:
 
-$$ \mathsf{response} \ \sim \ \mathsf{linear} \mathsf{predictor}$$ 
+$$ \mathsf{response} \ \sim \ \mathsf{linear} \ \mathsf{predictor}$$ 
+
+where the response corresponds to the response (or dependent) variable and the linear predictor corresponds to the set of explanatory variables. 
