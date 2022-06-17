@@ -7,4 +7,10 @@ In this teaching page, we explain some key examples relevant to some application
 ## [A]. Data handling Techniques (Inserting/Merging/Exporting)
 
 
+
+
 ## [B]. Linear and Generalized Regression Modelling Examples
+
+A model formula in R has the following form:
+
+$$ \text{response} \ \sim \ \text{linear_predictor}$$ 
