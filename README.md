@@ -13,4 +13,4 @@ In this teaching page, we explain some key examples relevant to some application
 
 A model formula in R has the following form:
 
-$$ \text{response} \ \sim \ \text{linear_predictor}$$ 
+$$ \mathsf{response} \ \sim \ \mathsf{linear predictor}$$ 
