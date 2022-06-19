@@ -9,10 +9,16 @@ In this teaching page, we explain some key examples relevant to some application
 
 
 
-## [B]. Linear and Generalized Regression Modelling Examples
+## [B]. Linear and Generalized Regression Models
 
 A model formula in R has the following form:
 
 $$ \mathsf{response} \ \sim \ \mathsf{linear} \ \mathsf{predictor}$$ 
 
 where the response corresponds to the response (or dependent) variable and the linear predictor corresponds to the set of explanatory variables. 
+
+
+## [C]. Sequence Analysis and Binary Genearlized Linear Models
+
+
+## [D]. High-Dimensional Regression Models
