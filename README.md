@@ -21,6 +21,10 @@ where the response corresponds to the response (or dependent) variable and the l
 - **coefficients:** Extracts the parameter estimates from the model fit. 
 - **family:** The assumed distribution of the response and the relationship between the left and right-hand sides of the model. 
 
+### Example 1
+
+Consider the [R](https://www.r-project.org/) dataset 'plasma'. 
+
 ## [C]. Sequence Analysis and Binary Generalized Linear Models
 
 
