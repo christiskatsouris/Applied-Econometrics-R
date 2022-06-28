@@ -23,7 +23,10 @@ where the response corresponds to the response (or dependent) variable and the l
 
 ### Example 1
 
-Consider the [R](https://www.r-project.org/) dataset 'plasma'. 
+Consider the [R](https://www.r-project.org/) dataset ['plasma'](https://rdrr.io/cran/gamlss.data/man/plasma.html). 
+
+**Data Desrciption**. A cross-sectional study to investigate the relationship between personal characteristics and dietary factors, and plasma concentrations.  
+
 
 ## [C]. Sequence Analysis and Binary Generalized Linear Models
 
