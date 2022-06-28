@@ -64,6 +64,17 @@ fwd.model <- step( null, direction='forward', scope=full )
 
 ```
 
+### Generalized Linear Models
+
+```R
+
+> glm( formula, family = binomial(link = probit) )
+
+```
+### Example 2
+
+Consider the implementation of a Generalized Linear Model to the dataset 'Anorexia'.
+
 ## [C]. Sequence Analysis and Binary Generalized Linear Models
 
 
