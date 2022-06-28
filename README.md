@@ -23,7 +23,7 @@ where the response corresponds to the response (or dependent) variable and the l
 
 ### Example 1
 
-Consider the [R](https://www.r-project.org/) dataset ['plasma'](https://rdrr.io/cran/gamlss.data/man/plasma.html). 
+Consider the [R](https://www.r-project.org/) dataset ['plasma'](https://rdrr.io/cran/gamlss.data/man/plasma.html). Based on the variables of the dataset, with 'retplasma' as the response variable apply the forward model selection method. 
 
 **Data Description**. Observational studies have suggested that low dietary intake or low plasma concentrations of retinol, beta-carotene, or other carotenoids might be associated with increased risk of developing certain types of cancer. The particular, cross-sectional study to investigate the relationship between personal characteristics and dietary factors, and plasma concentrations of retinol, beta-carotene and other carotenoids (see, [Harell (2022)](https://hbiostat.org/data/repo/plasma.html)). 
 
@@ -39,15 +39,15 @@ library("readxl")
 
 data <- read_excel("plasma.xlsx")
 
-age <- data$age
-sex <- data$sex
+age      <- data$age
+sex      <- data$sex
 smokstat <- data$smokstat
 quetelet <- data$quetelet
 vituse   <- data$vituse
 calories <- data$calories
-fat   <- data$fat
-fiber <- data$fiber
-alcohol <- data$alcohol 
+fat      <- data$fat
+fiber    <- data$fiber
+alcohol  <- data$alcohol 
 cholesterol <- data$cholesterol
 betadiet    <- data$betadiet
 retdiet     <- data$retdiet
@@ -57,11 +57,10 @@ retplasma   <- data$retplasma
 mydata <- data
 mydata <- data.frame(mydata)
 
-null <- lm(retplasma ~ 1, data=mydata)
-full <- formula(lm(retplasma ~.,data=mydata) )
+null <- lm(retplasma ~ 1, data=mydata )
+full <- formula( lm(retplasma ~.,data=mydata) )
 
-fwd.model <- step(null, direction='forward', scope=full)
-
+fwd.model <- step( null, direction='forward', scope=full )
 
 ```
 
