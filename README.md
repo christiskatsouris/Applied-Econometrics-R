@@ -11,6 +11,8 @@ In this teaching page, we explain some key examples relevant to some application
 
 ## [B]. Linear and Generalized Regression Models
 
+### Linear Models
+
 A model formula in R has the following form:
 
 $$ \mathsf{response} \ \sim \ \mathsf{linear} \ \mathsf{predictor}$$ 
