@@ -75,7 +75,7 @@ fwd.model <- step( null, direction='forward', scope=full )
 ```
 ### Example 2
 
-Consider the implementation of a Generalized Linear Model to the dataset 'Anorexia'.
+Consider the implementation of a Generalized Linear Model to the [R](https://www.r-project.org/) dataset 'Anorexia'.
 
 ## [C]. Sequence Analysis and Binary Generalized Linear Models
 
