@@ -25,7 +25,7 @@ where the response corresponds to the response (or dependent) variable and the l
 
 Consider the [R](https://www.r-project.org/) dataset ['plasma'](https://rdrr.io/cran/gamlss.data/man/plasma.html). 
 
-**Data Desrciption**. A cross-sectional study to investigate the relationship between personal characteristics and dietary factors, and plasma concentrations.  
+**Data Desrciption**. Observational studies have suggested that low dietary intake or low plasma concentrations of retinol, beta-carotene, or other carotenoids might be associated with increased risk of developing certain types of cancer. The particular, cross-sectional study to investigate the relationship between personal characteristics and dietary factors, and plasma concentrations of retinol, beta-carotene and other carotenoids (see, [Harell (2022)](https://hbiostat.org/data/repo/plasma.html)). 
 
 
 ## [C]. Sequence Analysis and Binary Generalized Linear Models
