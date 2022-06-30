@@ -67,7 +67,9 @@ In GLM we consider two important ingredients:
 
 $$ \eta_i = \beta_0 + \beta_1 x_{1i} + \beta_2 x_{2i} + ... + \beta_p x_{pi}.$$
 
-- Link function: to link the linear predictor to the Binomial probability. 
+- Link function: to link the linear predictor to the Binomial probability. Various link functions can be employed, however for binomial response, the most commonly used link function is Logit, which is defined as below
+
+$$ \eta = log \left(  \frac{  p }{ 1 - p }  \right).$$
 
 
 
