@@ -2,7 +2,7 @@
 
 The synthesis of heterogenous data and the development of software - is a combination now recognized as data science. Therefore, the field of Applied Statistics has a key role in our understanding of data relationships and associations by testing statistical theorems and econometric theory which can support the broader scope of data science in explaining uncertainty. 
 
-## [A]. Linear and Generalized Regression Models
+## [A]. Linear and Generalized Linear Models
 
 ### Linear Models
 
@@ -60,6 +60,16 @@ fwd.model <- step( null, direction='forward', scope=full )
 ```
 
 ### Generalized Linear Models
+
+In GLM we consider two important ingredients:
+
+- Linear predictor: to model linear relationships. 
+
+$$ \eta_i = \beta_0 + \beta_1 x_{1i} + \beta_2 x_{2i} + ... + \beta_p x_{pi}.$$
+
+- Link function: to link the linear predictor to the Binomial probability. 
+
+
 
 ```R
 
