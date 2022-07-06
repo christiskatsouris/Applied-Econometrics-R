@@ -170,4 +170,5 @@ summary(model1)
 
 # [C]. Proportional Hazard Model
 
-
+Next we focus on a different application of Applied Statistics in economics and finance, namely the use of the proportional hazard regression model in related empirical studies. In particular, we are interested to model the probability of default (e.g., which is useful for credit scoring or risk management purposes). By definition, the hazard rate is given by 
+$$h(t) = \underset{ \delta t \to 0 }{ \mathsf{lim} }  $$
