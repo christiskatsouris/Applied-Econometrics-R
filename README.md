@@ -172,3 +172,9 @@ summary(model1)
 
 Next we focus on a different application of Applied Statistics in economics and finance, namely the use of the proportional hazard regression model in related empirical studies. In particular, we are interested to model the probability of default (e.g., which is useful for credit scoring or risk management purposes). By definition, the hazard rate is given by 
 $$h(t) = \underset{ \delta t \to 0 }{ \mathsf{lim} } = \frac{ \mathbb{P} \left( t \leq T \leq t + \delta t | T \geq t \right) }{ \delta t  }.$$
+
+Then, the probability of survival at time t is given by
+
+$S(t) = P \left( T \geq t \right) = \mathsf{exp} \left( -  \int_0^t h(u) du \right).$
+
+
