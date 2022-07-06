@@ -175,6 +175,6 @@ $$h(t) = \underset{ \delta t \to 0 }{ \mathsf{lim} } = \frac{ \mathbb{P} \left( 
 
 Then, the probability of survival at time t is given by
 
-$S(t) = P \left( T \geq t \right) = \mathsf{exp} \left( -  \int_0^t h(u) du \right).$$
+$$S(t) = P \left( T \geq t \right) = \mathsf{exp} \left( -  \int_0^t h(u) du \right).$$
 
 For example, the survival function gives the probability an account has not defaulted by some time t after the account has been opended. 
