@@ -98,6 +98,69 @@ install.packages("cluster")
 library(TraMineR)
 library(cluster)
 
+## STEP 1: Variable Extraction and Data Transformations
+
+input  <- read_dta("Longitudinal_2014.dta") 
+mydata <- data.frame(input)
+start  <- which(colnames(mydata)=="jan2011")
+end    <- which(colnames(mydata)=="dec2014")
+
+mydata$countrycode   <- as.factor(mydata$countrycode)
+welfarestate         <- countrycode
+
+mydata$male          <- as.factor(mydata$male)
+mydata$education2011 <- as.factor(mydata$education2011)
+mydata$urban2011     <- as.factor(mydata$urban2011)
+
+## Employment trajectories
+mvad.alphab  <- c("EFT","EPT","SEM","UNEMPLED","STUDENT", "DOMESTIC", "INACTIVE","MILITARY", "NA")
+mydata.seq   <- seqdef(mydata, var=start:end, states=mvad.alphab, labels=c("EFT","EPT","SEM","UNEMPLED","STUDENT", "DOMESTIC", "INACTIVE", "MILITARY", "NA"),xtstep = 9 )
+seqiplot( mydata.seq, title = "Index plot (first 10 sequences)",withlegend = TRUE )
+
+## STEP 2: COMPUTE PAIRWISE OPTIMAL MATCHING (OM) DISTANCES
+
+mvad.om1 <- seqdist(mydata.seq, method = "OM", indel = 1, sm = "TRATE",with.missing = TRUE)
+
+## STEP 3: AGGLOMERATIVE HIERARCHICAL CLUSTERING  
+
+clusterward <- agnes(mvad.om1, diss = TRUE, method = "ward")
+mvad.cl4    <- cutree(clusterward, k = 4)
+cl4.lab     <- factor(mvad.cl4, labels = paste("Cluster", 1:4))
+
+## STEP 4: VISUALIZE THE CLUSTER PATTERNS 
+
+seqdplot(mydata.seq, group = cl4.lab, border=NA)
+
+# MEAN TIME SPENT IN EACH STATE BY GENDER
+seqmtplot( mydata.seq, group = mydata$male, title = "Mean time" )
+seqfplot( mydata.seq, group = Cluster3, pbarw = T )
+
+
+## STEP 5: LONGITUDINAL ENTROPY
+
+par(mfrow = c(1, 2))
+entropies <- seqient(mydata.seq)
+hist(entropies)
+
+Turbulence <- seqST(mydata.seq)
+hist(Turbulence)
+
+summary(entropies)
+summary(Turbulence)
+
+tr <- seqtrate(mydata.seq)
+round(tr, 2)
+
+submat   <- seqsubm(mydata.seq, method = "TRATE")
+dist.om1 <- seqdist(mydata.seq, method = "OM", indel = 1,sm = submat)
+
+## step 6: BINIMIAL GLM IMPLEMENTATION
+
+mb4 <- (cl4.lab == "Cluster 1")
+
+# model 1
+model1 <- glm( mb4 ~ male + age + education2011 + ... ,  data = mydata, family = "binomial" )
+summary(model1)
 
 ```
 
