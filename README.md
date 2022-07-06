@@ -82,7 +82,7 @@ $$ \eta = log \left(  \frac{  p }{ 1 - p }  \right).$$
 
 Consider the implementation of a Generalized Linear Model to the [R](https://www.r-project.org/) dataset 'Anorexia'.
 
-# [B]. Sequence Analysis and Bionomial GLM
+# [B]. Sequence Analysis and Binomial GLM
 
 Sequence Analysis is a non-parametric technique particularly useful for statistical inference with longitudinal data of employment and work-family related trajectories. Such data are commonly used in Labour Economics, Social Statistics and Demography and the main scope is to find statistical significant covariates that explain the particular data topologies across time. Although the presence of time-varying covariates requires additional regularity conditions, the use of sequence analysis along with the implementation of a Binomial GLM provides a possible methodology for analysing the trajectories of such Survey Study participants for static data structures (such as a particular cross-sectional or wave dataset, that is, a follow-up study for a given period of time).     
 
@@ -163,6 +163,10 @@ model1 <- glm( mb4 ~ male + age + education2011 + ... ,  data = mydata, family =
 summary(model1)
 
 ```
+
+### References
+
+
 
 # [C]. Proportional Hazard Model
 
