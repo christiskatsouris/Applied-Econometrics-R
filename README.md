@@ -113,8 +113,8 @@ mydata$education2011 <- as.factor(mydata$education2011)
 mydata$urban2011     <- as.factor(mydata$urban2011)
 
 ## Employment trajectories
-mvad.alphab  <- c("EFT","EPT","SEM","UNEMPLED","STUDENT", "DOMESTIC", "INACTIVE","MILITARY", "NA")
-mydata.seq   <- seqdef(mydata, var=start:end, states=mvad.alphab, labels=c("EFT","EPT","SEM","UNEMPLED","STUDENT", "DOMESTIC", "INACTIVE", "MILITARY", "NA"),xtstep = 9 )
+mvad.alphab <- c("EFT","EPT","SEM","UNEMPLED","STUDENT", "DOMESTIC", "INACTIVE","MILITARY", "NA")
+mydata.seq  <- seqdef(mydata, var=start:end, states=mvad.alphab, labels=c("EFT","EPT","SEM","UNEMPLED","STUDENT","DOMESTIC","INACTIVE","MILITARY","NA"),xtstep = 9)
 seqiplot( mydata.seq, title = "Index plot (first 10 sequences)",withlegend = TRUE )
 
 ## STEP 2: COMPUTE PAIRWISE OPTIMAL MATCHING (OM) DISTANCES
