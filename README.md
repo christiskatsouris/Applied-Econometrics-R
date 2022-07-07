@@ -337,8 +337,18 @@ $$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta^{\prim
 
 ### Example 6
 
-Consider the ['survival'](https://cran.r-project.org/web/packages/survival/index.html) package in R which provides implementation of the Proportional Hazard Model (see also this [tutorial](https://data.princeton.edu/pop509/frailtyr)). 
+Consider the R packages ['survival'](https://cran.r-project.org/web/packages/survival/index.html) and ['dynfrail'](https://www.rdocumentation.org/packages/dynfrail/versions/0.5.2/topics/dynfrail) that provide implementations of the Proportional Hazard Model (see also this [tutorial](https://data.princeton.edu/pop509/frailtyr)) and Dynamic Frailty Model. 
 
+```R
+
+install.packages("survival")
+library(survival)
+
+install.packages("dynfrail")
+library(dynfrail)
+
+
+```
 
 ## References
 
@@ -366,4 +376,6 @@ On Probability Theory:
 
 [3] Chen, X. (2007). Large sample sieve estimation of semi-nonparametric models. Handbook of econometrics, 6, 5549-5632.
 
- 
+# Disclaimer 
+
+The author declares no conflicts of interest. The proposed Course Syllabus is currently under development and has not been officially undergone quality checks.  
