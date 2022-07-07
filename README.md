@@ -337,12 +337,21 @@ $$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta^{\prim
 
 ## References
 
+On Credit Scoring:
+- Bellotti, T., & Crook, J. (2013). Forecasting and stress testing credit card default using dynamic models. International Journal of Forecasting, 29(4), 563-574.
 - Banasik, J., Crook, J. N., & Thomas, L. C. (1999). Not if but when will borrowers default. Journal of the Operational Research Society, 50(12), 1185-1190.
-- Chen, S. (2019). Quantile regression for duration models with time-varying regressors. Journal of Econometrics, 209(1), 1-17.
 - Crook, J., & Bellotti, T. (2010). Time varying and dynamic models for default risk in consumer loans. Journal of the Royal Statistical Society: Series A (Statistics in Society), 173(2), 283-305.
 - Duffie, D., Eckner, A., Horel, G., & Saita, L. (2009). Frailty correlated default. The Journal of Finance, 64(5), 2089-2123.
 - Dirick, L., Claeskens, G., & Baesens, B. (2017). Time to default in credit scoring using survival analysis: a benchmark study. Journal of the Operational Research Society, 68(6), 652-665.
+
+On Properties of Hazard functions:
+- Chen, S. (2019). Quantile regression for duration models with time-varying regressors. Journal of Econometrics, 209(1), 1-17.
 - Hahn, J. (1994). The efficiency bound of the mixed proportional hazard model. The Review of Economic Studies, 61(4), 607-629. 
+
+On Probability Theory:
+- Enki, D. G., Noufaily, A., & Farrington, C. P. (2014). A time-varying shared frailty model with application to infectious diseases. The Annals of Applied Statistics, 430-447.
+- Gjessing, Håkon K., Odd O. Aalen, and Nils Lid Hjort. "Frailty models based on Lévy processes." Advances in Applied Probability 35.2 (2003): 532-550.
+- Singpurwalla, N. D. (1995). Survival in dynamic environments. Statistical science, 86-103.
 
 # Further Reading
 
