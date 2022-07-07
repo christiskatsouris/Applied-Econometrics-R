@@ -1,6 +1,6 @@
 # Applied-Statistics-R
 
-The synthesis of heterogenous data and the development of software - is a combination now recognized as data science. Therefore, the field of Applied Statistics has a key role in our understanding of data relationships and associations by testing statistical theorems and econometric theory which can support the broader scope of data science in explaining uncertainty. 
+The synthesis of heterogenous data and the development of software - is a combination now recognized as data science. Therefore, the field of Applied Statistics has a key role in our understanding of data relationships and associations by testing statistical theorems and econometric theory which can support the broader scope of data science and experimental economics in explaining uncertainty and human decision making. 
 
 In this teaching page of Applied Statistics using R, we present three main applications which are commonly presented in empirical economic and finance studies, that is, (i) the use of GLMs for the analysis of Binary Data, (ii) the implementation of Sequence Analysis for evaluating employment and/or work trajectories and (iii) statistical inference based on the Proportional Hazard Model which is useful for modelling the probability of default in various settings.
 
@@ -337,6 +337,7 @@ $$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta^{\prim
 
 ## References
 
+- Banasik, J., Crook, J. N., & Thomas, L. C. (1999). Not if but when will borrowers default. Journal of the Operational Research Society, 50(12), 1185-1190.
 - Chen, S. (2019). Quantile regression for duration models with time-varying regressors. Journal of Econometrics, 209(1), 1-17.
 - Crook, J., & Bellotti, T. (2010). Time varying and dynamic models for default risk in consumer loans. Journal of the Royal Statistical Society: Series A (Statistics in Society), 173(2), 283-305.
 - Duffie, D., Eckner, A., Horel, G., & Saita, L. (2009). Frailty correlated default. The Journal of Finance, 64(5), 2089-2123.
