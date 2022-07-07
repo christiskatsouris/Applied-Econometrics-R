@@ -91,7 +91,7 @@ For example, if the logit link function is employed then it holds that
 
 $$p_i = \frac{ e^{\eta_i} }{ 1 + e^{\eta_i} } \ \ \ \text{and} \ \ \ 1 - p_i = \frac{ 1 }{ 1 + e^{\eta_i}  },$$
 
-and the likelihood function becomes
+and the log-likelihood function becomes
 
 $$\ell( \beta | \boldsymbol{y} ) = \sum_{i=1}^n \left[  y_i \eta_i - \eta_i \mathsf{log} \left( 1 + e^{\eta_i} \right) + \mathsf{log} \left( n_i C_{y_i}  \right)  \right]  .$$
 
