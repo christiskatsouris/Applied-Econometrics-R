@@ -283,7 +283,10 @@ $$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta . x_i(
 
 # Further Reading
 
-[1] Chen, X. (2007). Large sample sieve estimation of semi-nonparametric models. Handbook of econometrics, 6, 5549-5632.
+[1] Zeileis, C. K. A. (2008). Applied Econometrics with R. Springer: New York, NY, USA.
 
 [2] Dunn, P. K., & Smyth, G. K. (2018). Generalized linear models with examples in R (Vol. 53). New York: Springer. 
+
+[3] Chen, X. (2007). Large sample sieve estimation of semi-nonparametric models. Handbook of econometrics, 6, 5549-5632.
+
  
