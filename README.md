@@ -335,6 +335,11 @@ $$h( t, x(t), \beta ) = h_0(t) . \mathsf{exp} \left( \beta^{\prime} . x(t) \righ
 Then, the log-likelihood function can be computed as
 $$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta^{\prime} . x_i(t_i )  \right) }{ \sum_{ j \in R(t_i)} \mathsf{exp} \left( \beta^{\prime} . x_j(t_i )  \right)  } \right]^{c_i}.$$
 
+### Example 6
+
+Consider the ['survival'](https://cran.r-project.org/web/packages/survival/index.html) package in R which provides implementation of the Proportional Hazard Model (see also this [tutorial](https://data.princeton.edu/pop509/frailtyr)). 
+
+
 ## References
 
 On Credit Scoring:
