@@ -151,6 +151,16 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 ```
 
+## Remarks: 
+
+1. An important aspect after model fitting is model checking and diagnostics. Briefly speaking model cheching is about investigating that the assumptions of the model are in agreement with the data. 
+
+2. In practise model diagnostics implies checking for misspecification which includes for instance: 
+(i)   Testing the independence and constant variance of the errors. 
+(ii)  Testing the linearity of the conditional mean function. 
+(iii) Testing for multicollinearity.  
+
+
 # [B]. Sequence Analysis and Logistic Regression
 
 Sequence Analysis is a non-parametric technique particularly useful for statistical inference with longitudinal data of employment and work-family related trajectories. Such data are commonly used in Labour Economics, Social Statistics and Demography and the main scope is to find statistical significant covariates that explain the particular data topologies across time. Although the presence of time-varying covariates requires additional regularity conditions, the use of sequence analysis along with the implementation of a Binomial GLM provides a possible methodology for analysing the trajectories of such Survey Study participants for static data structures (such as a particular cross-sectional or wave dataset, that is, a follow-up study for a given period of time).     
