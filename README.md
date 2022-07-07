@@ -171,6 +171,12 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 (iv)  Residual Analysis and Outlier Detection. 
 
+3. In order to avoid having correlated explanatory variables (the problem of multicollinearity in classical econometric applications), we need to consider a subset of variables, that is, which the model selection step. Econometric theory can provide some indication when considering such causal analyses. In applied statistics, model selection is often done via the following methodologies: 
+
+(i) Automatic variable selection (such as backward elimintation, forward selection and step-wise selection among others).
+
+(ii) Criterion-based variable selection (such as using the AIC or the Mallow's criterion). An interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called the ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771). 
+
 
 # [B]. Sequence Analysis and Logistic Regression
 
