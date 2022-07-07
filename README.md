@@ -181,4 +181,4 @@ For example, the survival function gives the probability an account has not defa
 $$h( t, x(t), \beta ) = h_0(t) . \mathsf{exp} \left( \beta^{\prime} x(t) \right).$$
 
 Then, the log-likelihood function can be computed as
-$$\ell_p( \beta ) = \prod_{i=1}^n  \frac{ \mathsf{exp} \left( \beta . x(t_i )  \right) }{ \mathsf{exp} \left( \beta . x(t_i )  \right)  } $$
+$$\ell_p( \beta ) = \prod_{i=1}^n  \frac{ \mathsf{exp} \left( \beta . x_i(t_i )  \right) }{ \sum_{ j \in R(t_i)} \mathsf{exp} \left( \beta . x_j(t_i )  \right)  } $$
