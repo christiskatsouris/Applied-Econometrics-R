@@ -97,7 +97,7 @@ $$\ell( \beta | \boldsymbol{y} ) = \sum_{i=1}^n \left[  y_i \eta_i - \eta_i \mat
 
 ### Example 2
 
-Consider the implementation of a suitable Generalized Linear Model to the [R](https://www.r-project.org/) dataset 'Anorexia'.
+Consider the implementation of a suitable Generalized Linear Model to the [R](https://www.r-project.org/) dataset ['Anorexia'](https://rdrr.io/cran/PairedData/man/Anorexia.html).
 
 ```R
 
