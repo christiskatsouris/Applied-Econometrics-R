@@ -24,7 +24,7 @@ where the response corresponds to the response (or dependent) variable and the l
 Consider the [swiss fertility data-set](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/swiss.html) in R (see, also this [tutorial](https://rpubs.com/bmedina17/731785)). 
 
 
-![My Image](data/Rplot.jpg)
+![My Image](../data/Rplot.jpg)
 
 
 ### References
