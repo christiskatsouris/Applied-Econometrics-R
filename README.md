@@ -121,6 +121,34 @@ names(anorexia_summary)[names(anorexia_summary) == "mean"] <- "Weight"
 
 ```
 
+### Example 3 
+
+Consider a high-dimensional Binomial GLM with a response variable being 'attrition' which represents a binary response, that is, a binary variable indicating whether a survey participant has droped from the follow-up study. 
+
+```R
+
+y <- attritionGroup1
+
+## lasso selection
+fit <-  glmnet(X, y, family = "binomial")
+plot(fit, xvar = "dev", label= TRUE)
+predict(fit, newx = X[1:100,], type = "class", s = c(0.05,0.01))
+
+cvfit <-  cv.glmnet(X, y, family = "binomial", type.measure = "class")
+plot(cvfit)
+
+cvfit$lambda.min
+
+lasso_log    <- glmnet(X, as.factor(y), alpha = 1, family = "binomial", lambda = cvfit$lambda.min) 
+lassosel_log <- coef(lasso_log)[coef(lasso_log)@i+1,]
+
+## return subset selected
+out <- list()
+out$selected$cvlasso_log <- names(lassosel_log)
+out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"])
+
+```
+
 # [B]. Sequence Analysis and Logistic Regression
 
 Sequence Analysis is a non-parametric technique particularly useful for statistical inference with longitudinal data of employment and work-family related trajectories. Such data are commonly used in Labour Economics, Social Statistics and Demography and the main scope is to find statistical significant covariates that explain the particular data topologies across time. Although the presence of time-varying covariates requires additional regularity conditions, the use of sequence analysis along with the implementation of a Binomial GLM provides a possible methodology for analysing the trajectories of such Survey Study participants for static data structures (such as a particular cross-sectional or wave dataset, that is, a follow-up study for a given period of time).     
