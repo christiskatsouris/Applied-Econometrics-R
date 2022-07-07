@@ -18,7 +18,11 @@ where the response corresponds to the response (or dependent) variable and the l
 - **coefficients:** Extracts the parameter estimates from the model fit. 
 - **family:** The assumed distribution of the response and the relationship between the left and right-hand sides of the model. 
 
-### Example 1
+
+### Example 1 
+
+
+### Example 2
 
 Consider the [R](https://www.r-project.org/) dataset ['plasma'](https://rdrr.io/cran/gamlss.data/man/plasma.html). Based on the variables of the dataset, with 'retplasma' as the response variable apply the forward model selection method. 
 
@@ -97,7 +101,7 @@ and the log-likelihood function becomes
 
 $$\ell( \beta | \boldsymbol{y} ) = \sum_{i=1}^n \bigg[  y_i \eta_i - \eta_i \mathsf{log} \left( 1 + e^{\eta_i} \right) + \mathsf{log} \left( n_i C_{y_i}  \right)  \bigg]  .$$
 
-### Example 2
+### Example 3
 
 Consider the implementation of a suitable Generalized Linear Model to the [R](https://www.r-project.org/) dataset ['Anorexia'](https://rdrr.io/cran/PairedData/man/Anorexia.html).
 
@@ -123,7 +127,7 @@ names(anorexia_summary)[names(anorexia_summary) == "mean"] <- "Weight"
 
 ```
 
-### Example 3 
+### Example 4 
 
 Consider a high-dimensional Binomial GLM with a response variable being 'attrition' which represents a binary response, that is, a binary variable indicating whether a survey participant has droped from the follow-up study. 
 
@@ -170,7 +174,7 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 Sequence Analysis is a non-parametric technique particularly useful for statistical inference with longitudinal data of employment and work-family related trajectories. Such data are commonly used in Labour Economics, Social Statistics and Demography and the main scope is to find statistical significant covariates that explain the particular data topologies across time. Although the presence of time-varying covariates requires additional regularity conditions, the use of sequence analysis along with the implementation of a Binomial GLM provides a possible methodology for analysing the trajectories of such Survey Study participants for static data structures (such as a particular cross-sectional or wave dataset, that is, a follow-up study for a given period of time).     
 
-### Example 3
+### Example 5
 
 Consider a cross-sectional dataset which includes the employment trajectories of a group of survey participants. Implement the Sequence Analysis methodology as described in the R package ['TraMineR'](http://traminer.unige.ch/index.shtml). 
 
