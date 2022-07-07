@@ -93,7 +93,7 @@ $$p_i = \frac{ e^{\eta_i} }{ 1 + e^{\eta_i} } \ \ \ \text{and} \ \ \ 1 - p_i = \
 
 and the log-likelihood function becomes
 
-$$\ell( \beta | \boldsymbol{y} ) = \sum_{i=1}^n \left[  y_i \eta_i - \eta_i \mathsf{log} \left( 1 + e^{\eta_i} \right) + \mathsf{log} \left( n_i C_{y_i}  \right)  \right]  .$$
+$$\ell( \beta | \boldsymbol{y} ) = \sum_{i=1}^n \bigg[  y_i \eta_i - \eta_i \mathsf{log} \left( 1 + e^{\eta_i} \right) + \mathsf{log} \left( n_i C_{y_i}  \right)  \bigg]  .$$
 
 ### Example 2
 
