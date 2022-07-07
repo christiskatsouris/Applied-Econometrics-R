@@ -21,11 +21,13 @@ where the response corresponds to the response (or dependent) variable and the l
 
 ### Example 1 
 
-Consider the [swiss fertility data-set](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/swiss.html) in R. 
+Consider the [swiss fertility data-set](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/swiss.html) in R (see, also this [tutorial](https://rpubs.com/bmedina17/731785)). 
+
+
 
 ### References
 
-- Barro, R. J., & Becker, G. S. (1989). Fertility choice in a model of economic growth. Econometrica: journal of the Econometric Society, 481-501.
+- Barro, R. J., & Becker, G. S. (1989). Fertility choice in a model of economic growth. Econometrica: Journal of the Econometric Society, 481-501.
 - Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988) The New S Language. Wadsworth & Brooks/Cole. 
 
 ### Example 2
