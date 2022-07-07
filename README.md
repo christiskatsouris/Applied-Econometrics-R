@@ -1,6 +1,8 @@
 # Applied-Statistics-R
 
-The synthesis of heterogenous data and the development of software - is a combination now recognized as data science. Therefore, the field of Applied Statistics has a key role in our understanding of data relationships and associations by testing statistical theorems and econometric theory which can support the broader scope of data science in explaining uncertainty. In this teaching page of Applied Statistics using R, we present three main applications which are commonly presented in empirical economic and finance studies, that is, the use of GLMs for the analysis of Binary Data, the implementation of Sequence Analysis for evaluating employment and/or work trajectories as well as statistical inference based on the Proportional Hazard Model which is useful for modelling the probability of default in various settings.
+The synthesis of heterogenous data and the development of software - is a combination now recognized as data science. Therefore, the field of Applied Statistics has a key role in our understanding of data relationships and associations by testing statistical theorems and econometric theory which can support the broader scope of data science in explaining uncertainty. 
+
+In this teaching page of Applied Statistics using R, we present three main applications which are commonly presented in empirical economic and finance studies, that is, (i) the use of GLMs for the analysis of Binary Data, (ii) the implementation of Sequence Analysis for evaluating employment and/or work trajectories and (iii) statistical inference based on the Proportional Hazard Model which is useful for modelling the probability of default in various settings.
 
 # [A]. Linear and Generalized Linear Models
 
