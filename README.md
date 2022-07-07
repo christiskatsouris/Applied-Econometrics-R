@@ -156,9 +156,14 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 1. An important aspect after model fitting is model checking and diagnostics. Briefly speaking model cheching is about investigating that the assumptions of the model are in agreement with the data. 
 
 2. In practise model diagnostics implies checking for misspecification which includes for instance: 
+
 (i)   Testing the independence and constant variance of the errors. 
+
 (ii)  Testing the linearity of the conditional mean function. 
+
 (iii) Testing for multicollinearity.  
+
+(iv)  Residual Analysis and Outlier Detection. 
 
 
 # [B]. Sequence Analysis and Logistic Regression
