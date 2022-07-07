@@ -63,7 +63,7 @@ fwd.model <- step( null, direction='forward', scope=full )
 
 Overall in a Binamial GLM the response variable yi, for i = 1,...,n, is assumed to be Binomially distributed where n is fixed and represents independent trials. In other words, for Binary Data we have that yi = 1 or 0 where pi represents the probability of success. 
 
-$$Y_i \sim \mathsf{Binomial} \left( n_i, p_i \right), \ \ \ \text{with} \ \ \mathbb{P} \left( Y_i = y_i \right) = n_i  y_i p^{y_i} ( 1 - p_i )^{ n_i - y_i }.$$
+$$Y_i \sim \mathsf{Binomial} \left( n_i, p_i \right), \ \ \ \text{with} \ \ \mathbb{P} \left( Y_i = y_i \right) = n_i C_{y_i} p^{y_i} ( 1 - p_i )^{ n_i - y_i }.$$
 
 
 Therefore, in Generalized Linear Models (GLM), such as the Logistic Regression, we consider two important ingredients:
