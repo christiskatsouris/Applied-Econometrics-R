@@ -327,13 +327,13 @@ $$h(t) = \underset{ \delta t \to 0 }{ \mathsf{lim} } = \frac{ \mathbb{P} \left( 
 
 Then, the probability of survival at time t is given by
 
-$$S(t) = P \left( T \geq t \right) = \mathsf{exp} \left( -  \int_0^t h(u) du \right).$$
+$$S(t) = P \left( T \geq t \right) = \mathsf{exp} \left( - \int_0^t h(u) du \right).$$
 
 For example, the survival function gives the probability an account has not defaulted by some time t after the account has been opended. The probability of default can be affected by macroeconomic conditions such as (i) bank interest rates, (ii) the unemployement index and (iii) the customer earnings. These covariates can be employed as explanatory variables in a Proportional Hazard Model. More specifically, the Cox Hazard specification form is defined as below 
 $$h( t, x(t), \beta ) = h_0(t) . \mathsf{exp} \left( \beta. x(t) \right).$$
 
 Then, the log-likelihood function can be computed as
-$$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta . x_i(t_i )  \right) }{ \sum_{ j \in R(t_i)} \mathsf{exp} \left( \beta . x_j(t_i )  \right)  } \right]^{c_i}.$$
+$$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta^{\prime} . \boldsymbol{x}_i(t_i )  \right) }{ \sum_{ j \in R(t_i)} \mathsf{exp} \left( \beta^{\prime} . \boldsymbol{x}_j(t_i )  \right)  } \right]^{c_i}.$$
 
 ## References
 
