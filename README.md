@@ -30,7 +30,8 @@ Consider the [swiss fertility data-set](https://stat.ethz.ch/R-manual/R-devel/li
 ## Without removing any influential points we fit the model
 ## Usually outliers should be removed before fitting the linear regression model
 
-> summary(lm(Fertility ~ . , data = swiss))
+> linear.model <- lm(Fertility ~ . , data = swiss)
+> summary( linear.model )
 
 Call:
 lm(formula = Fertility ~ ., data = swiss)
@@ -53,6 +54,21 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 Residual standard error: 7.165 on 41 degrees of freedom
 Multiple R-squared:  0.7067,	Adjusted R-squared:  0.671 
 F-statistic: 19.76 on 5 and 41 DF,  p-value: 5.594e-10
+
+> anova( linear.model )
+
+Analysis of Variance Table
+
+Response: Fertility
+                 Df  Sum Sq Mean Sq F value    Pr(>F)    
+Agriculture       1  894.84  894.84 17.4288 0.0001515 ***
+Examination       1 2210.38 2210.38 43.0516 6.885e-08 ***
+Education         1  891.81  891.81 17.3699 0.0001549 ***
+Catholic          1  667.13  667.13 12.9937 0.0008387 ***
+Infant.Mortality  1  408.75  408.75  7.9612 0.0073357 ** 
+Residuals        41 2105.04   51.34                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 ```
 
