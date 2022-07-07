@@ -21,6 +21,8 @@ where the response corresponds to the response (or dependent) variable and the l
 
 ### Example 1 
 
+Consider the [swiss fertility data-set](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/swiss.html) in R. 
+
 
 ### Example 2
 
