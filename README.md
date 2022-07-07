@@ -153,7 +153,7 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 ## Remarks: 
 
-1. An important aspect after model fitting is model checking and diagnostics. Briefly speaking model cheching is about investigating that the assumptions of the model are in agreement with the data. 
+1. An important aspect after model fitting is model checking and diagnostics. Briefly speaking model checking is about investigating that the assumptions of the model are in agreement with the data. 
 
 2. In practise model diagnostics implies checking for misspecification which includes for instance: 
 
