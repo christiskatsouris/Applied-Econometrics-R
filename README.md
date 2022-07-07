@@ -88,7 +88,10 @@ $$\eta_i = \Phi^{-1} (p) \ \ \ \text{and} \ \ \ \eta_i = \mathsf{log} \left( - \
 ```
 ### Example 2
 
-Consider the implementation of a Generalized Linear Model to the [R](https://www.r-project.org/) dataset 'Anorexia'.
+Consider the implementation of a suitable Generalized Linear Model to the [R](https://www.r-project.org/) dataset 'Anorexia'.
+
+Additional GLMs include the Poisson regression which corresponds to Count Data. Further details for estimation and inference using the Poisson GLM can be found in more advanced courses on Generalized Linear Models.  
+
 
 # [B]. Sequence Analysis and Binomial GLM
 
