@@ -27,6 +27,9 @@ Consider the [swiss fertility data-set](https://stat.ethz.ch/R-manual/R-devel/li
 
 ```R
 
+## Without removing any influential points we fit the model
+## Usually outliers should be removed before fitting the linear regression model
+
 > summary(lm(Fertility ~ . , data = swiss))
 
 Call:
