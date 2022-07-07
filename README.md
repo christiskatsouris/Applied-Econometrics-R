@@ -86,6 +86,12 @@ $$\eta_i = \Phi^{-1} (p) \ \ \ \text{and} \ \ \ \eta_i = \mathsf{log} \left( - \
 > glm( formula, family = binomial(link = probit) )
 
 ```
+
+For example, if the logit link function is employed then it holds that 
+
+$$p_i = \frac{ e^{\eta_i} }{ 1 + e^{\eta_i} } \ \ \ \text{and} \ \ \ 1 - p_i = \frac{ 1 }{ 1 + e^{\eta_i}  }.$$
+
+
 ### Example 2
 
 Consider the implementation of a suitable Generalized Linear Model to the [R](https://www.r-project.org/) dataset 'Anorexia'.
