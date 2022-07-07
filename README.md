@@ -164,7 +164,7 @@ summary(model1)
 
 ```
 
-### References
+## References
 
 
 
@@ -183,6 +183,6 @@ $$h( t, x(t), \beta ) = h_0(t) . \mathsf{exp} \left( \beta. x(t) \right).$$
 Then, the log-likelihood function can be computed as
 $$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta . x_i(t_i )  \right) }{ \sum_{ j \in R(t_i)} \mathsf{exp} \left( \beta . x_j(t_i )  \right)  } \right]^{c_i}.$$
 
-### References
+## References
 
 Duffie, D., Eckner, A., Horel, G., & Saita, L. (2009). Frailty correlated default. The Journal of Finance, 64(5), 2089-2123. 
