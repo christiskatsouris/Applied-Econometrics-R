@@ -99,10 +99,29 @@ $$\ell( \beta | \boldsymbol{y} ) = \sum_{i=1}^n \left[  y_i \eta_i - \eta_i \mat
 
 Consider the implementation of a suitable Generalized Linear Model to the [R](https://www.r-project.org/) dataset 'Anorexia'.
 
-Additional GLMs include the Poisson regression which corresponds to Count Data. Further details for estimation and inference using the Poisson GLM can be found in more advanced courses on Generalized Linear Models.  
+```R
 
+library(MASS) # For the anorexia data set
+library(reshape2)
 
-# [B]. Sequence Analysis and Binomial GLM
+# Load the anorexia data set
+data(anorexia)
+
+# Give each person a unique ID
+anorexia$ID <- as.factor(1:nrow(anorexia))
+
+# Calculate mean, standard deviation, and count
+library(plyr)
+anorexia_summary <- ddply(anorexia, c("Treatment", "Time"), summarise,
+                          mean = mean(Weight),
+                          sd   = sd(Weight),
+                          n    = length(Treatment))
+
+names(anorexia_summary)[names(anorexia_summary) == "mean"] <- "Weight"
+
+```
+
+# [B]. Sequence Analysis and Logistic Regression
 
 Sequence Analysis is a non-parametric technique particularly useful for statistical inference with longitudinal data of employment and work-family related trajectories. Such data are commonly used in Labour Economics, Social Statistics and Demography and the main scope is to find statistical significant covariates that explain the particular data topologies across time. Although the presence of time-varying covariates requires additional regularity conditions, the use of sequence analysis along with the implementation of a Binomial GLM provides a possible methodology for analysing the trajectories of such Survey Study participants for static data structures (such as a particular cross-sectional or wave dataset, that is, a follow-up study for a given period of time).     
 
