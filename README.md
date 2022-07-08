@@ -322,7 +322,17 @@ summary(model1)
 - Studer, M., & Ritschard, G. (2016). What matters in differences between life trajectories: A comparative review of sequence dissimilarity measures. Journal of the Royal Statistical Society: Series A (Statistics in Society), 179(2), 481-511.
 - Studer, M., Ritschard, G., Gabadinho, A., & Müller, N. S. (2011). Discrepancy analysis of state sequences. Sociological Methods & Research, 40(3), 471-510.
 
-# [C]. Proportional Hazard Model
+# [C]. Treatment Effect Estimation and Inference
+
+
+
+
+## References
+
+- Ma, X., & Wang, J. (2020). Robust inference using inverse probability weighting. Journal of the American Statistical Association, 115(532), 1851-1860.
+
+
+# [D]. Proportional Hazard Regression Model
 
 Next we focus on a different application of Applied Statistics in economics and finance, namely the use of the proportional hazard regression model in related empirical studies. In particular, we are interested to model the probability of default (e.g., which is useful for credit scoring or risk management purposes). By definition, the hazard rate is given by 
 $$h(t) = \underset{ \delta t \to 0 }{ \mathsf{lim} } = \frac{ \mathbb{P} \left( t \leq T \leq t + \delta t | T \geq t \right) }{ \delta t  }.$$
