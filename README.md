@@ -72,11 +72,6 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 ```
 
-### References
-
-- Barro, R. J., & Becker, G. S. (1989). Fertility choice in a model of economic growth. Econometrica: Journal of the Econometric Society, 481-501.
-
-
 ### Example 2
 
 Consider the [R](https://www.r-project.org/) dataset ['plasma'](https://rdrr.io/cran/gamlss.data/man/plasma.html). Based on the variables of the dataset, with 'retplasma' as the response variable apply the forward model selection method. 
@@ -230,10 +225,12 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 (ii) Criterion-based variable selection (such as using the AIC or the Mallow's criterion). An interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called the ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771). 
 
-### References
+## References
 
+- Barro, R. J., & Becker, G. S. (1989). Fertility choice in a model of economic growth. Econometrica: Journal of the Econometric Society, 481-501.
 - Hansen, P. R., Lunde, A., & Nason, J. M. (2011). The model confidence set. Econometrica, 79(2), 453-497.
 - Manski, C. F., & Thompson, T. S. (1989). Estimation of best predictors of binary response. Journal of Econometrics, 40(1), 97-123.
+- Liang, K. Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73(1), 13-22.
 
 # [B]. Sequence Analysis and Logistic Regression
 
@@ -321,6 +318,7 @@ summary(model1)
 
 - Aisenbrey, S., & Fasang, A. (2017). The interplay of work and family trajectories over the life course: Germany and the United States in comparison. American Journal of Sociology, 122(5), 1448-1484.
 - Gabadinho, A., Ritschard, G., Mueller, N. S., & Studer, M. (2011). Analyzing and visualizing state sequences in R with TraMineR. Journal of statistical software, 40(4), 1-37.
+- Liang, K. Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73(1), 13-22.
 - Studer, M., & Ritschard, G. (2016). What matters in differences between life trajectories: A comparative review of sequence dissimilarity measures. Journal of the Royal Statistical Society: Series A (Statistics in Society), 179(2), 481-511.
 - Studer, M., Ritschard, G., Gabadinho, A., & Müller, N. S. (2011). Discrepancy analysis of state sequences. Sociological Methods & Research, 40(3), 471-510.
 
