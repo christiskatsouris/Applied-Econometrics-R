@@ -75,7 +75,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 ### References
 
 - Barro, R. J., & Becker, G. S. (1989). Fertility choice in a model of economic growth. Econometrica: Journal of the Econometric Society, 481-501.
-- Becker, R. A., Chambers, J. M. and Wilks, A. R. (1988) The New S Language. Wadsworth & Brooks/Cole. 
+
 
 ### Example 2
 
@@ -230,6 +230,10 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 (ii) Criterion-based variable selection (such as using the AIC or the Mallow's criterion). An interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called the ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771). 
 
+### References
+
+- Hansen, P. R., Lunde, A., & Nason, J. M. (2011). The model confidence set. Econometrica, 79(2), 453-497.
+- Manski, C. F., & Thompson, T. S. (1989). Estimation of best predictors of binary response. Journal of Econometrics, 40(1), 97-123.
 
 # [B]. Sequence Analysis and Logistic Regression
 
@@ -374,7 +378,6 @@ On Probability Theory:
 
 [2] Dunn, P. K., & Smyth, G. K. (2018). Generalized linear models with examples in R (Vol. 53). New York: Springer. 
 
-[3] Chen, X. (2007). Large sample sieve estimation of semi-nonparametric models. Handbook of econometrics, 6, 5549-5632.
 
 # Disclaimer 
 
