@@ -221,7 +221,7 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 3. In order to avoid having correlated explanatory variables (the problem of multicollinearity in classical econometric applications), a commony used approach, especially under the presence of a large number of candidate covariates, is to consider a subset of explantory variables, which is the model selection step. Furthermore, although econometric theory can provide some indication of possible covariates to choose when considering such causal identification, the model selection step can be implemented using one of the following methodologies: 
 
-(i) Automatic variable selection (such as backward elimintation, forward selection and step-wise selection among others).
+(i) Automatic variable selection (such as backward elimination, forward selection and step-wise selection among others).
 
 (ii) Criterion-based variable selection (such as using the AIC or the C Mallow's criterion). For instance, an interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771). 
 
