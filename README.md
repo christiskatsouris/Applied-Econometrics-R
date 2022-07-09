@@ -361,6 +361,14 @@ library(dynfrail)
 
 ```
 
+
+## Remarks: 
+
+Some important concepts in Survival Analysis include the following: 
+
+- Cencoring: This terminology implies that the endpoint is not observed for all subjects (e.g., the patient is still alive at the time of analysis, or a portfolio account has not been defaulted at the 'observation' time. Furthermore, there are two types of cencoring: (i) right cencoring and (ii) left cencoring. For instance, the second case which is less frequent implies that the survival times are known only to be less that some value t*. Another interesting example of left cencoring is a portfolio of loas that were previously extended past their original maturities, which could represent distressed loans where the extension was part of a loss mitigation strategy adopted by the lender (see, ['From Originiation to Renegotiation'](https://link.springer.com/article/10.1007/s11146-016-9548-1)).     
+
+
 ## References
 
 On Credit Scoring:
@@ -387,9 +395,10 @@ On Probability Theory:
 
 [2] Dunn, P. K., & Smyth, G. K. (2018). Generalized linear models with examples in R (Vol. 53). New York: Springer. 
 
+[3] Carpenter, M. (1997). Survival analysis: a self-learning text.
 
 # Disclaimer 
 
-The author declares no conflicts of interest. 
+The author (Christis G. Katsouris) declares no conflicts of interest. 
 
 The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.  
