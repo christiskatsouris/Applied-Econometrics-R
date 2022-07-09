@@ -395,7 +395,7 @@ On Probability Theory:
 
 [2] Dunn, P. K., & Smyth, G. K. (2018). Generalized linear models with examples in R (Vol. 53). New York: Springer. 
 
-[3] Carpenter, M. (1997). Survival analysis: a self-learning text.
+[3] Kleinbaum, D. G., & Klein, M. (2012). Survival analysis: a self-learning text (Vol. 3). New York: Springer.
 
 # Disclaimer 
 
