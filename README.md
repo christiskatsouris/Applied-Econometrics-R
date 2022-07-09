@@ -369,6 +369,8 @@ On Credit Scoring:
 - Crook, J., & Bellotti, T. (2010). Time varying and dynamic models for default risk in consumer loans. Journal of the Royal Statistical Society: Series A (Statistics in Society), 173(2), 283-305.
 - Duffie, D., Eckner, A., Horel, G., & Saita, L. (2009). Frailty correlated default. The Journal of Finance, 64(5), 2089-2123.
 - Dirick, L., Claeskens, G., & Baesens, B. (2017). Time to default in credit scoring using survival analysis: a benchmark study. Journal of the Operational Research Society, 68(6), 652-665.
+- Kiefer, N. M. (2010). Default estimation and expert information. Journal of Business & Economic Statistics, 28(2), 320-328.
+- Kiefer, N. M. (2011). Default estimation, correlated defaults, and expert information. Journal of Applied Econometrics, 26(2), 173-192.
 
 On Properties of Hazard functions:
 - Chen, S. (2019). Quantile regression for duration models with time-varying regressors. Journal of Econometrics, 209(1), 1-17.
