@@ -328,6 +328,9 @@ There is a growing literature on modelling methodologies for Average Treatment E
 
 ## References
 
+- LaLonde, R. J. (1986). Evaluating the econometric evaluations of training programs with experimental data. The American economic review, 604-620.
+- Hausman, J. A., & Wise, D. A. (1979). Attrition bias in experimental and panel data: the Gary income maintenance experiment. Econometrica: Journal of the Econometric Society, 455-473.
+- Huber, M. (2012). Identification of average treatment effects in social experiments under alternative forms of attrition. Journal of Educational and Behavioral Statistics, 37(3), 443-474.
 - Ma, X., & Wang, J. (2020). Robust inference using inverse probability weighting. Journal of the American Statistical Association, 115(532), 1851-1860.
 - Katsouris, C. (2021). Treatment effect validation via a permutation test in Stata. [arXiv preprint:2110.12268](https://arxiv.org/abs/2110.12268).
 
