@@ -329,6 +329,7 @@ summary(model1)
 ## References
 
 - Ma, X., & Wang, J. (2020). Robust inference using inverse probability weighting. Journal of the American Statistical Association, 115(532), 1851-1860.
+- Katsouris, C. (2021). Treatment effect validation via a permutation test in Stata. [arXiv preprint:2110.12268](https://arxiv.org/abs/2110.12268).
 
 
 # [D]. Proportional Hazard Regression Model
