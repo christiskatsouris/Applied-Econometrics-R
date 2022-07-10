@@ -329,6 +329,11 @@ The Average Treatment Effect is defined as below:
 
 $$ATE = \mathbb{E} [ Y(1) ] - \mathbb{E} [ Y(0) ]. $$
 
+Many factors can influence both the response and the treatment covariate. Overall a related measure of interest is the propensity score which is defined as:
+
+$$\Pi (x) = \mathbb{P} ( D = 1 | X = x ) $$
+
+where we assume that the unconfoundedness condition holds. 
 
 ## References
 
