@@ -404,6 +404,8 @@ On Probability Theory:
 
 [3] Kleinbaum, D. G., & Klein, M. (2012). Survival analysis: a self-learning text (Vol. 3). New York: Springer.
 
+[4] Aalen, O., Borgan, O., & Gjessing, H. (2008). Survival and event history analysis: a process point of view. Springer Science & Business Media.
+
 # Disclaimer 
 
 The author (Christis G. Katsouris) declares no conflicts of interest. 
