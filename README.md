@@ -321,9 +321,9 @@ summary(model1)
 - Studer, M., & Ritschard, G. (2016). What matters in differences between life trajectories: A comparative review of sequence dissimilarity measures. Journal of the Royal Statistical Society: Series A (Statistics in Society), 179(2), 481-511.
 - Studer, M., Ritschard, G., Gabadinho, A., & Müller, N. S. (2011). Discrepancy analysis of state sequences. Sociological Methods & Research, 40(3), 471-510.
 
-# [C]. Treatment Effect Estimation and Inference
+# [C]. Average Treatment Effects Estimation and Inference
 
-
+There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy outcomes.  
 
 
 ## References
