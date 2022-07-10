@@ -418,9 +418,11 @@ On Probability Theory:
 
 [2] Dunn, P. K., & Smyth, G. K. (2018). Generalized linear models with examples in R (Vol. 53). New York: Springer. 
 
-[3] Kleinbaum, D. G., & Klein, M. (2012). Survival analysis: a self-learning text (Vol. 3). New York: Springer.
+[3] Millimet, D., Smith, J., & Vytlacil, E. (2008). Modelling and evaluating treatment effects in econometrics. Emerald Group Publishing.
 
-[4] Aalen, O., Borgan, O., & Gjessing, H. (2008). Survival and event history analysis: a process point of view. Springer Science & Business Media.
+[4] Kleinbaum, D. G., & Klein, M. (2012). Survival analysis: a self-learning text (Vol. 3). New York: Springer.
+
+[5] Aalen, O., Borgan, O., & Gjessing, H. (2008). Survival and event history analysis: a process point of view. Springer Science & Business Media.
 
 # Disclaimer 
 
