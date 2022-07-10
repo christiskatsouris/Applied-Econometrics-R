@@ -335,6 +335,10 @@ $$\Pi (x) = \mathbb{P} ( D = 1 | X = x ) $$
 
 where we assume that the unconfoundedness condition holds. 
 
+## Remarks: 
+
+Notice that the main difference of ATE regression models in comparision to the Binomial GLM (Logistic Regression) is that we are modelling both a response and an explanatory variable which is binary. Additional covariates can be also incorporated but the use of a Generalized Linear Model is not a suitable modelling approach in this case.      
+
 ## References
 
 - LaLonde, R. J. (1986). Evaluating the econometric evaluations of training programs with experimental data. The American economic review, 604-620.
