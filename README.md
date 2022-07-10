@@ -341,11 +341,15 @@ Then, the probability of survival at time t is given by
 
 $$S(t) = P \left( T \geq t \right) = \mathsf{exp} \left( - \int_0^t h(u) du \right).$$
 
-For example, the survival function gives the probability an account has not defaulted by some time t after the account has been opended. The probability of default can be affected by macroeconomic conditions such as (i) bank interest rates, (ii) the unemployement index and (iii) the customer earnings. These covariates can be employed as explanatory variables in a Proportional Hazard Model. More specifically, the Cox Hazard specification form is defined as below 
+For example, the survival function gives the probability a portfolio account has not defaulted by some time t after the account has been opended. The probability of default can be affected by macroeconomic conditions such as (i) bank interest rates, (ii) the unemployement rate and (iii) the customer earnings. These covariates can be employed as explanatory variables in a Proportional Hazard Regression Model and account for heterogeneity. 
+
+More specifically, the Cox Hazard specification form is defined as below 
 $$h( t, x(t), \beta ) = h_0(t) . \mathsf{exp} \left( \beta^{\prime} . x(t) \right).$$
 
 Then, the log-likelihood function can be computed as
 $$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta^{\prime} . x_i(t_i )  \right) }{ \sum_{ j \in R(t_i)} \mathsf{exp} \left( \beta^{\prime} . x_j(t_i )  \right)  } \right]^{c_i}.$$
+
+On the other hand, fraily models which are an extension to the standard survival models (such as the Proportional Hazard model) are random effects models for time-to-event data used to account for unobserved heterogeneity and dependence. 
 
 ### Example 6
 
