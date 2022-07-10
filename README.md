@@ -323,7 +323,7 @@ summary(model1)
 
 # [C]. Average Treatment Effects Estimation and Inference
 
-There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy outcomes.  
+There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy outcomes. An R tutorial can be found [here](https://cran.r-project.org/web/packages/targeted/vignettes/ate.html). 
 
 
 ## References
