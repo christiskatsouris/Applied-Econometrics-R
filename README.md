@@ -2,7 +2,7 @@
 
 The synthesis of heterogenous data and the development of software - is a combination now recognized as data science. Therefore, both the fields of Applied Econometrics and Applied Statistics have a key role in our understanding of data relationships and associations by testing statistical theorems and econometric theory which can support the broader scope of data science and economics in explaining uncertainty and decision making. 
 
-In this teaching page of Applied Econometrics Using R, we present three main applications which are commonly presented in empirical economic and finance studies, that is, (i) the use of GLMs for the analysis of Binary Data, (ii) the implementation of Sequence Analysis for evaluating employment and/or work trajectories and (iii) statistical inference based on the Proportional Hazard Model which is useful for modelling the probability of default in various settings.
+In this teaching page of Applied Econometrics Using R, we present four main applications which are commonly presented in empirical economic and finance studies, that is, (i) the use of GLMs for the analysis of Binary Data, (ii) the implementation of Sequence Analysis for evaluating employment and/or work trajectories, (iii) Average Treatment Effects Estimation and (iii) Statistical Inference based on the Proportional Hazard Model which is useful for modelling the probability of default in various settings.
 
 # [A]. Linear and Generalized Linear Models
 
