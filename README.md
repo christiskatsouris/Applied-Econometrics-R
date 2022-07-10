@@ -325,6 +325,10 @@ summary(model1)
 
 There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy outcomes. An R tutorial can be found [here](https://cran.r-project.org/web/packages/targeted/vignettes/ate.html). 
 
+The Average Treatment Effect is defined as below:
+
+$$ATE = \mathbb{E} [ Y(1) ] - \mathbb{E} [ Y(0) ]. $$
+
 
 ## References
 
