@@ -436,7 +436,8 @@ The proposed Course Syllabus is currently under development and has not been off
 2. Be able to obtain the parameters of Binomial GLMs from the exponential family of distributions. 
 3. Be able to construct statistical tests and use model diagnostic tools for GLMs.
 4. Understand the basic properties of Average Treatment Effect Models. 
-6. Be able to apply related econometric tools for ATE estimation such as IPW.  
-7. Understand the basic properties of Proportional Hazard Models. 
-8. Be able to apply parameter estimation methodologies (MLE, EM etc.)
-9. Be able to implement the above modelling techniques to economic, finance and actuarial data. 
+5. Be able to apply related econometric tools for ATE estimation such as IPW.  
+6. Understand the basic properties of Proportional Hazard Models. 
+7. Be able to apply parameter estimation methodologies (MLE, EM etc.)
+8. Be able to implement the above modelling techniques to economic, finance and actuarial data. 
+9. Be able to use Statistical/Econometric Programming Software such as R, Matlab or Stata. 
