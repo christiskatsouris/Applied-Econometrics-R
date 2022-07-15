@@ -424,12 +424,6 @@ On Probability Theory:
 
 [5] Aalen, O., Borgan, O., & Gjessing, H. (2008). Survival and event history analysis: a process point of view. Springer Science & Business Media.
 
-# Disclaimer 
-
-The author (Christis G. Katsouris) declares no conflicts of interest. 
-
-The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.  
-
 # Learning Outcomes
 
 1. Understand the basic properties of Generalized Linear Models (Binomial GLM).
@@ -441,3 +435,19 @@ The proposed Course Syllabus is currently under development and has not been off
 7. Be able to apply parameter estimation methodologies (MLE, EM etc.)
 8. Be able to implement the above modelling techniques to economic, finance and actuarial data. 
 9. Be able to use Statistical/Econometric Programming Software such as R, Matlab or Stata. 
+
+# Disclaimer 
+
+The author (Christis G. Katsouris) declares no conflicts of interest. 
+
+The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.  
+
+Any errors or omissions are the responsibility of the author.
+
+# Acknowledgments
+
+The author has benefited from Teaching Activities at the School of Economic, Social and Political Sciences of the University of Southampton. 
+
+# How to Cite a Website 
+
+See: https://www.mendeley.com/guides/web-citation-guide/ 
