@@ -365,7 +365,7 @@ $$h( t, x(t), \beta ) = h_0(t) . \mathsf{exp} \left( \beta^{\prime} . x(t) \righ
 Then, the log-likelihood function can be computed as
 $$\ell_p( \beta ) = \prod_{i=1}^n \left[ \frac{ \mathsf{exp} \left( \beta^{\prime} . x_i(t_i )  \right) }{ \sum_{ j \in R(t_i)} \mathsf{exp} \left( \beta^{\prime} . x_j(t_i )  \right)  } \right]^{c_i}.$$
 
-On the other hand, fraily models which are an extension to the standard survival models (such as the Proportional Hazard model) are random effects models for time-to-event data used to account for unobserved heterogeneity and dependence. 
+Furthermore, frailty models which are an extension to the standard survival models (such as the Proportional Hazard model) are random effects models for time-to-event data used to account for unobserved heterogeneity and dependence. 
 
 ### Example 6
 
@@ -373,15 +373,14 @@ Consider the R packages ['survival'](https://cran.r-project.org/web/packages/sur
 
 ```R
 
+# Install R packages 
 install.packages("survival")
 library(survival)
 
 install.packages("dynfrail")
 library(dynfrail)
 
-
 ```
-
 
 ## Remarks: 
 
