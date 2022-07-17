@@ -413,7 +413,7 @@ On Probability Theory:
 - Gjessing, Håkon K., Odd O. Aalen, and Nils Lid Hjort. "Frailty models based on Lévy processes." Advances in Applied Probability 35.2 (2003): 532-550.
 - Singpurwalla, N. D. (1995). Survival in dynamic environments. Statistical science, 86-103.
 
-# Further Reading
+# Reading List
 
 [1] Zeileis, C. K. A. (2008). Applied Econometrics with R. Springer: New York, NY, USA.
 
