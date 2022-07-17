@@ -223,7 +223,9 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 (i) Automatic variable selection (such as backward elimination, forward selection and step-wise selection among others).
 
-(ii) Criterion-based variable selection (such as using the AIC or the C Mallow's criterion). For instance, an interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771). 
+(ii) Criterion-based variable selection (such as using the AIC or the C Mallow's criterion). For instance, an interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771).
+
+- What about applying a suitable transformation on the response variable? such as the Box-Cox transformation. When can this be useful? 
 
 ## References
 
