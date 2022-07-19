@@ -371,7 +371,7 @@ Furthermore, frailty models which are an extension to the standard survival mode
 
 ### Example 6
 
-Consider the R packages ['survival'](https://cran.r-project.org/web/packages/survival/index.html) and ['dynfrail'](https://www.rdocumentation.org/packages/dynfrail/versions/0.5.2/topics/dynfrail) that provide implementations of the Proportional Hazard Model (see also this [tutorial](https://data.princeton.edu/pop509/frailtyr)) and Dynamic Frailty Model. 
+Consider the R packages ['survival'](https://cran.r-project.org/web/packages/survival/index.html) and ['dynfrail'](https://www.rdocumentation.org/packages/dynfrail/versions/0.5.2/topics/dynfrail) that provide implementations of the Proportional Hazard Model (see also this [tutorial](https://data.princeton.edu/pop509/frailtyr)) and the Dynamic Frailty Model. Begin by deriving the maximum likelihood function for both the hazard proportional model and the frailty model focusing on both the theoretical estimation as well as the computational aspects to that. Consider the simplest model specification initially before adding exogenous covariates to the functional form.  
 
 ```R
 
