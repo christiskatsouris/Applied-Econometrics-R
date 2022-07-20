@@ -219,13 +219,13 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 (iv)  Residual Analysis and Outlier Detection. 
 
-3. In order to avoid having correlated explanatory variables (the problem of multicollinearity in classical econometric applications), a commony used approach, especially under the presence of a large number of candidate covariates, is to consider a subset of explantory variables, which is the model selection step. Furthermore, although econometric theory can provide some indication of possible covariates to choose when considering such causal identification, the model selection step can be implemented using one of the following methodologies: 
+3. In order to avoid having correlated explanatory variables (the problem of multicollinearity in classical econometric applications), a commony used approach, especially under the presence of a large number of candidate covariates, is to consider a subset of explantory variables, which is the model selection step. Furthermore, although econometric theory can provide some indication of possible covariates to choose when considering modelling based on causal identification, the model selection step can be implemented using one of the following statistical methodologies: 
 
 (i) Automatic variable selection (such as backward elimination, forward selection and step-wise selection among others).
 
 (ii) Criterion-based variable selection (such as using the AIC or the C Mallow's criterion). For instance, an interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771).
 
-- What about applying a suitable transformation on the response variable? such as the Box-Cox transformation. When can this be useful? 
+- What about applying a suitable transformation on the response variable? For example, the Box-Cox transformation. When can this be useful? 
 
 ## References
 
@@ -444,10 +444,6 @@ The author (Christis G. Katsouris) declares no conflicts of interest.
 The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.  
 
 Any errors or omissions are the responsibility of the author.
-
-# Acknowledgments
-
-The author has benefited from Teaching Activities at the School of Economic, Social and Political Sciences of the University of Southampton. 
 
 # How to Cite a Website 
 
