@@ -117,7 +117,7 @@ fwd.model <- step( null, direction='forward', scope=full )
 
 ## [A2]. Generalized Linear Models
 
-Overall in a Binamial GLM the response variable yi, for i = 1,...,n, is assumed to be Binomially distributed where n is fixed and represents independent trials. In other words, for Binary Data we have that yi = 1 or 0 where pi represents the probability of success. 
+Overall in a Binamial GLM the response variable yi, for i = 1,...,n, is assumed to be Binomially distributed where n is fixed and represents independent trials. In other words, for Binary Data we have that $y_i$ = 1 or 0 where pi represents the probability of success. 
 
 $$Y_i \sim \mathsf{Binomial} \left( n_i, p_i \right), \ \ \ \text{with} \ \ \ \mathbb{P} \left( Y_i = y_i \right) = n_i C_{y_i} p^{y_i} ( 1 - p_i )^{ n_i - y_i }.$$
 
@@ -221,9 +221,9 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 3. In order to avoid having correlated explanatory variables (the problem of multicollinearity in classical econometric applications), a commony used approach, especially under the presence of a large number of candidate covariates, is to consider a subset of explantory variables, which is the model selection step. Furthermore, although econometric theory can provide some indication of possible covariates to choose when considering modelling based on causal identification, the model selection step can be implemented using one of the following statistical methodologies: 
 
-(i) Automatic variable selection (such as backward elimination, forward selection and step-wise selection among others).
+(i)  Automatic variable selection (such as backward elimination, forward selection and step-wise selection among others).
 
-(ii) Criterion-based variable selection (such as using the AIC or the C Mallow's criterion). For instance, an interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771).
+(ii) Criterion-based variable selection (such as using the AIC or the C Mallow's criterion). For instance, an interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771). Further related material on model selection is Section 9.4 (page 221) from Davidson, J. (2000).
 
 - What about applying a suitable transformation on the response variable? For example, the Box-Cox transformation. When can this be useful? 
 
@@ -310,7 +310,7 @@ dist.om1 <- seqdist(mydata.seq, method = "OM", indel = 1,sm = submat)
 mb4 <- (cl4.lab == "Cluster 1")
 
 # model 1
-model1 <- glm( mb4 ~ male + age + education2011 + ... ,  data = mydata, family = "binomial" )
+model1 <- glm( mb4 ~ male + age + education + ... ,  data = mydata, family = "binomial" )
 summary(model1)
 
 ```
@@ -424,6 +424,8 @@ On Probability Theory:
 [4] Kleinbaum, D. G., & Klein, M. (2012). Survival analysis: a self-learning text (Vol. 3). New York: Springer.
 
 [5] Aalen, O., Borgan, O., & Gjessing, H. (2008). Survival and event history analysis: a process point of view. Springer Science & Business Media.
+
+[6] Davidson, J. (2000). Econometric theory. John Wiley & Sons.
 
 # Learning Outcomes
 
