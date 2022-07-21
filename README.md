@@ -1,13 +1,13 @@
 # Applied-Econometrics-R
 
 
-A tutorial page on various aspects related to Computational Econometrics issues using the Statistical Software R (Drafted July 2022).
+A teaching page presenting various aspects related to Applied Econometrics Using R (Drafted July 2022).
 
 # Introduction
 
 The synthesis of heterogenous data and the development of software - is a combination now recognized as data science. Therefore, both the fields of Applied Econometrics and Applied Statistics have a key role in sheding light to our understanding of data relationships and associations by testing statistical hypotheses as well as econometric theory which can support the broader scope of economics and data science in explaining uncertainty and decision making. 
 
-In this teaching page of Applied Econometrics Using R, we present four main applications which are commonly presented in empirical economic and finance studies, such that:
+In this teaching page we present four main applications which are commonly presented in empirical economic and finance studies, such that:
 
 (i)   Statistical Analysis of Binary Data based on the Generalized Linear Models (GLMs),
 
