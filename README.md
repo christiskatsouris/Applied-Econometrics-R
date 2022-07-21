@@ -407,7 +407,7 @@ Some important concepts in Survival Analysis include the following:
 
 Question: What about attrition which appears in regression models of Average Treatment Effects? Is attrition and censoring the same thing? What are the econometric strategies we need to take into account when considering these two different modelling methodologies?  
 
-- Notice that we mainly consider the implementation of the Proportional Hazard Models such as those of Frailty Models for applications in finance (e.g., retail or behavioural finance). In other words, when survival models are based on 'time to default' data (for example for the purpose of credit scoring), then in practise we can predict not just if a borrower will default but when he/she will default. In such modelling environments we basically refer to these econometric specifications as behavioural models of default since the behavioural characteristics of borrowers are used as explanatory variables (regressors) to forecast the probability of default or the survival probability. 
+- Notice that we mainly consider the implementation of the Proportional Hazard Models such as those of Frailty Models for applications in finance (e.g., retail or behavioural finance). In other words, when survival models are based on 'time to default' data (for example for the purpose of credit scoring), then in practise we can predict not just if a borrower will default but when he/she will default. In such modelling environments we basically refer to these econometric specifications as behavioural models of default since the behavioural characteristics of borrowers are used as explanatory variables (regressors) to forecast the probability of default. 
 
 
 ## References
