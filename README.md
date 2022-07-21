@@ -238,7 +238,7 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 (ii) Criterion-based variable selection (such as using the AIC or the C Mallow's criterion). For instance, an interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771). Further related material on model selection is Section 9.4 (page 221) from Davidson, J. (2000).
 
-- What about applying a suitable transformation on the response variable? For example, the Box-Cox transformation. When can this be useful? 
+- Question: What about applying a suitable transformation on the response variable? For example, the Box-Cox transformation. When can this be useful? 
 
 ## References
 
@@ -406,6 +406,8 @@ Some important concepts in Survival Analysis include the following:
 - The underline theoretical underpinnings of Survival models are important for understanding how statistical inference can be conducted. Firstly, the actual survival time t must be independent of any mechanism that causes that individual's time to be censored at c < t. In other words, the prognosis for individual alive at time t (think for example the prognosis of a portfolio account not to be defaulted at time t) should not be affected by cencoring at t. Secondly, how censoring is applied is important for the validity of statistical assumptions and the robustness of the results to hold. In particular, a censored patient is representative of those at risk (or a company/portfolio account which is about to default) if censoring happens either at random or at fixed time of analysis. On the other hand, when censoring occurs due to cessation of treatment for example, which results to the deterioration of a condition then the results from the particular patient are not representative of those at risk. In other words, censoring should be independent of illnes and/or tratement.   
 
 Question: What about attrition which appears in regression models of Average Treatment Effects? Is attrition and censoring the same thing? What are the econometric strategies we need to take into account when considering these two different modelling methodologies?  
+
+- Notice that we mainly consider the application of Survival and Proportional Hazard Models such as the use of Frailty Models in finance applications (e.g., retail or behavioural finance). In other words, when survival models are based on 'time to default' data (such as for the purpose of credit scoring) then in practise we can predict not just if a borrower will default but when he/she will default. In such modelling environments we basically refer to these econometric specifications as behavioural models of default since the behavioural characteristics of borrowers are used as explanatory variables (regressors) to forecast the probability of default or the survival probability. 
 
 
 ## References
