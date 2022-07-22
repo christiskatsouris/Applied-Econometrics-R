@@ -5,7 +5,7 @@ A teaching page presenting various aspects related to Applied Econometrics Using
 
 # Introduction
 
-The synthesis of heterogenous data and the development of software - is a combination now recognized as data science. Therefore, both the fields of Applied Econometrics and Applied Statistics have a key role in sheding light to our understanding of data relationships and associations by testing statistical hypotheses as well as econometric theory which can support the broader scope of economics and data science in explaining uncertainty and decision making. 
+The synthesis of heterogenous data and the development of software (or coding procedures), is a combination which is now recognized as data science. Moreover, both the fields of Applied Econometrics and Applied Statistics have a key role in sheding light to our understanding of data relationships and associations by testing statistical hypotheses as well as econometric theory which can support the broader scopes of economics and data science in explaining uncertainty and decision making. 
 
 In this teaching page we present four main applications which are commonly presented in empirical economic and finance studies, such that:
 
@@ -130,7 +130,9 @@ fwd.model <- step( null, direction='forward', scope=full )
 
 ## [A2]. Generalized Linear Models
 
-Overall in a Binamial GLM the response variable yi, for i = 1,...,n, is assumed to be Binomially distributed where n is fixed and represents independent trials. In other words, for Binary Data we have that $y_i$ = 1 or 0 where pi represents the probability of success. 
+- GLMs extend ordinary (continous response) or Gaussian regression models to non-Gaussian response variable distributions. Generally speaking, GLMs can be applied to a variaty of non-Gaussian forms of data such as Binary Data (or proportions), Categorical Data, Count Data and so on. For this course, we focus on Binary data (binary response variable) and later on to Binary regressors (for the ATE models).   
+
+A Binamial GLM implies that the response variable $y_i$, for i = 1,...,n, is assumed to be Binomially distributed where n is fixed and represents independent trials. In other words, for Binary Data we have that $y_i$ = 1 or 0 where pi represents the probability of success. 
 
 $$Y_i \sim \mathsf{Binomial} \left( n_i, p_i \right), \ \ \ \text{with} \ \ \ \mathbb{P} \left( Y_i = y_i \right) = n_i C_{y_i} p^{y_i} ( 1 - p_i )^{ n_i - y_i }.$$
 
