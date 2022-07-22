@@ -238,7 +238,9 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 (ii) Criterion-based variable selection (such as using the AIC or the C Mallow's criterion). For instance, an interesting model selection methodology is the method proposed by Hansen et al. (2011), so-called ['model confidence set'](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA5771). Further related material on model selection is Section 9.4 (page 221) from Davidson, J. (2000).
 
-- Question: What about applying a suitable transformation on the response variable? For example, the Box-Cox transformation. When can this be useful? 
+> Question: When does an application of a suitable transformation on the response variable contribute to robust statistical inference? 
+ 
+For example, the Box-Cox transformation. When can this be useful? 
 
 ## References
 
