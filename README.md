@@ -240,7 +240,11 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 > Question: When does an application of a suitable transformation on the response variable contribute to robust statistical inference? 
  
-For example, the Box-Cox transformation. When can this be useful? 
+Specifically, this phenomenon refers to the case when the response variable y does not look as a linear function of the predictors. Therefore, an appropriate transformation can be applied in order to restore linearity, or in other words, the Box-Cox family of transformations. In particular, let g be a function belonging in some parametric family indexed by a parameter $\lampda$. Then, the Box-Cox transformation is given by
+
+$$g(y) = \frac{ y^{\lampda} - 1 }{ \lampda }.$$
+
+Then, the MLE methodology can be employed to determine the value of the unknown parameter $\lampda$.
 
 ## References
 
