@@ -250,6 +250,7 @@ Then, the MLE methodology can be employed to determine the value of the unknown 
 
 ## References
 
+- Box, G. E., & Cox, D. R. (1964). An analysis of transformations. Journal of the Royal Statistical Society: Series B (Methodological), 26(2), 211-243.
 - Barro, R. J., & Becker, G. S. (1989). Fertility choice in a model of economic growth. Econometrica: Journal of the Econometric Society, 481-501.
 - Hansen, P. R., Lunde, A., & Nason, J. M. (2011). The model confidence set. Econometrica, 79(2), 453-497.
 - Manski, C. F., & Thompson, T. S. (1989). Estimation of best predictors of binary response. Journal of Econometrics, 40(1), 97-123.
