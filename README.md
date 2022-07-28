@@ -337,6 +337,20 @@ summary(model1)
 
 ```
 
+## Remarks: 
+
+Various statistics can be employed as dissimilarity measures for comparing the trajectories of sequences. Some of these include:
+(a) Longest Common Prefix
+
+(b) Longest Common Suffix
+
+(c) Longest Common Subsequence
+
+(d) Hamming Distance
+
+
+
+
 ## References
 
 - Aisenbrey, S., & Fasang, A. (2017). The interplay of work and family trajectories over the life course: Germany and the United States in comparison. American Journal of Sociology, 122(5), 1448-1484.
