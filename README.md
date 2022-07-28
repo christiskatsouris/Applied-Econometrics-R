@@ -353,9 +353,9 @@ Moreover the entropy index (i.e., Gini heterogeneity index) provides a measure o
 
 In the above example implemented in R the clustering of sequences with most similarities based on the OM algorithm has identified four distinct patterns of school to work transitions (i.e., employment trajectories) for the sub-population of young people. Thus, the role of statistical modelling (using Logistic regression) is exactly to provide statistical evidence on how cluster membership depends on certain covariates which capture the main socio-economic characteristics of the particular population.   
 
-In terms of economic theory 
-
-
+In terms of economic theory the above statistical analysis can be expanded in order to address further economic policy research questions, such as: 
+- How do monetary shocks affect the transition to the different employment states and in particular in relation to the group clustering obtained from the algorithmic procedures of Sequence Analysis?
+- Which macroeconomic factors have explanatory power in explaining these employment transitions? In general a macroeconomist might be interested to investigate the impact of various macroeconomic shifts on individual mobility processes. Neverthless, these research questions are beyond the scope of this teaching page, as we focus on introducing certain econometric methods and statistical procedures which are particularly useful for related applied studies.   
 
 ## References
 
