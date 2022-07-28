@@ -341,13 +341,13 @@ summary(model1)
 
 Various statistics can be employed as dissimilarity measures for comparing the trajectories of sequences. Some of these include:
 
-(a) Longest Common Prefix
+(a) Longest Common Prefix.
 
-(b) Longest Common Suffix
+(b) Longest Common Suffix.
 
-(c) Longest Common Subsequence
+(c) Longest Common Subsequence.
 
-(d) Hamming Distance
+(d) Hamming Distance.
 
 Moreover the entropy index (i.e., Gini heterogeneity index) provides a measure of sequence heterogeneity. In other words, it captures the state changes that occur in the sequences of trajectories. Furthermore, the dissimilarity between two sequences can be obtained by considering the necessary operations to transform one sequence into the other. For example, given a longitudinal dataset grouped per European country one might be interested to obtain dissimilarity measures which can provide insights regarding the level of similarity of trajectories of a particular sub-population, such as the young people when followed up. In addition we can construct a logistic regression model across these groups based on a suitable set of covariates in order to obtain statistical evidence explaining the differences of these employment trajectories. 
 
@@ -360,10 +360,14 @@ In terms of economic theory
 ## References
 
 - Aisenbrey, S., & Fasang, A. (2017). The interplay of work and family trajectories over the life course: Germany and the United States in comparison. American Journal of Sociology, 122(5), 1448-1484.
+- Bester, C. A., Conley, T. G., & Hansen, C. B. (2011). Inference with dependent data using cluster covariance estimators. Journal of Econometrics, 165(2), 137-151.
 - Gabadinho, A., Ritschard, G., Mueller, N. S., & Studer, M. (2011). Analyzing and visualizing state sequences in R with TraMineR. Journal of statistical software, 40(4), 1-37.
+- Hansen, B. E., & Lee, S. (2019). Asymptotic theory for clustered samples. Journal of econometrics, 210(2), 268-290.
 - Liang, K. Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73(1), 13-22.
 - Studer, M., & Ritschard, G. (2016). What matters in differences between life trajectories: A comparative review of sequence dissimilarity measures. Journal of the Royal Statistical Society: Series A (Statistics in Society), 179(2), 481-511.
 - Studer, M., Ritschard, G., Gabadinho, A., & Müller, N. S. (2011). Discrepancy analysis of state sequences. Sociological Methods & Research, 40(3), 471-510.
+
+
 
 # [C]. Average Treatment Effects Estimation 
 
