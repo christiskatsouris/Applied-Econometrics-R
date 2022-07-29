@@ -5,7 +5,7 @@ A teaching page presenting various aspects related to Applied Econometrics Using
 
 # Introduction
 
-The synthesis of heterogenous data and the development of software (or coding procedures), is a combination which is now recognized as data science. Moreover, both the fields of Applied Econometrics and Applied Statistics have a key role in sheding light to our understanding of data relationships and associations by testing statistical hypotheses as well as econometric theory which can support the broader scopes of economics and data science in explaining uncertainty and decision making. 
+The synthesis of heterogenous data and the development of software (or coding procedures), is a combination which is now recognized as data science. Moreover, both the fields of Applied Econometrics and Applied Statistics have a key role in sheding light to our understanding of causal relations by testing statistical hypotheses as well as econometric theory which can support the broader scopes of economic and data sciences in explaining uncertainty and decision making. 
 
 In this teaching page we present four main applications which are commonly presented in empirical economic and finance studies, such that:
 
