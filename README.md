@@ -369,6 +369,10 @@ In general a macroeconomist might be interested to investigate the impact of var
 - Studer, M., & Ritschard, G. (2016). What matters in differences between life trajectories: A comparative review of sequence dissimilarity measures. Journal of the Royal Statistical Society: Series A (Statistics in Society), 179(2), 481-511.
 - Studer, M., Ritschard, G., Gabadinho, A., & Müller, N. S. (2011). Discrepancy analysis of state sequences. Sociological Methods & Research, 40(3), 471-510.
 
+## Further Reading (Advanced Topics)
+
+- Hidden Markov Models (to add references and related R package).
+- Joao, I. C., Lucas, A., Schaumburg, J., & Schwaab, B. (2022). Dynamic clustering of multivariate panel data. Journal of Econometrics.
 
 
 # [C]. Average Treatment Effects Estimation 
