@@ -385,6 +385,8 @@ In particular, when considering the modelling aspects of 'Dynamic Employment Tra
 
 - Joao, I. C., Lucas, A., Schaumburg, J., & Schwaab, B. (2022). Dynamic clustering of multivariate panel data. Journal of Econometrics.
 
+- Charu C. Aggarwal (2014). Data Classification: Algorithms and Applications 2014. Data Classification: Algorithms and Applications. IBM T.J Watson Research Center, New York, USA. CRC Press.  
+
 
 # [C]. Average Treatment Effects Estimation 
 
