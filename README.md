@@ -198,7 +198,8 @@ names(anorexia_summary)[names(anorexia_summary) == "mean"] <- "Weight"
 
 ## Remarks: 
 
-- Notice that we focus on the Binary GLM which is based on binary data. For instance, when considering other forms of data such as count data which is particularly useful in various actuarial and insurance applications, then we will need to consider the Poisson GLM which has a different specification in comparison to the Binomial GLM, although it still belongs to the Exponential Family with corresponding parameters (might add these in the future). 
+- Notice that we focus on the Binary GLM which is based on binary data. For instance, when considering other forms of data such as count data which is particularly useful in various actuarial and insurance applications, then we will need to consider the Poisson GLM.
+- A Poisson GLM has a different specification in comparison to the Binomial GLM, however it still belongs to the Exponential Family with corresponding parameters such as canonical parameter, link functions which can be mapped (might add these aspects in the future). 
 
 ### Example 4 
 
@@ -379,7 +380,8 @@ In general a macroeconomist might be interested to investigate the impact of var
 
 ## Further Reading (Advanced Topics)
 
-- Hidden Markov Models (to add references and related R package). In particular, when considering the modelling aspects of 'Dynamic Employment Trajectories', then one has to consider the transitions from one cluster to the next. A suitable statistical methodology that captures these phenomena is the Hidden Markov Model (HMM). Specifically, if we consider the latent (hidden) states to evolve over time then a HMM can characterize these transition dynamics. Although, pragmatically such dynamics would be more challenging to capture, as we would need to identify the same study participants from 2 consequentive longitudinal wave studies, it could still be a possible modelling strategy with fruitful results.  
+- Hidden Markov Models (to add references and related R package). 
+In particular, when considering the modelling aspects of 'Dynamic Employment Trajectories', that is, time-varying to track gradual changes in cluster characteristics over time, then one has to consider modelling the transitions from one cluster to the next through time. A suitable statistical methodology that captures such phenomena is the Hidden Markov Model (HMM). Specifically, under the assumption that the latent (hidden) states evolve over time, then a HMM can characterize these transition dynamics. Although, pragmatically such dynamics would be more challenging to capture from a survey study, as we would need to identify the same study participants from 2 consequentive longitudinal waves, it could still be a possible modelling strategy with fruitful results. 
 
 - Joao, I. C., Lucas, A., Schaumburg, J., & Schwaab, B. (2022). Dynamic clustering of multivariate panel data. Journal of Econometrics.
 
