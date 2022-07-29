@@ -371,7 +371,8 @@ In general a macroeconomist might be interested to investigate the impact of var
 
 ## Further Reading (Advanced Topics)
 
-- Hidden Markov Models (to add references and related R package).
+- Hidden Markov Models (to add references and related R package). In particular, when considering the modelling aspects of 'Dynamic Employment Trajectories', then one has to consider the transitions from one cluster to the next. A suitable statistical methodology that captures these phenomena is the Hidden Markov Model (HMM). Specifically, if we consider the latent (hidden) states to evolve over time then a HMM can characterize these transition dynamics. Although, pragmatically such dynamics would be more challenging to capture, as we would need to identify the same study participants from 2 consequentive longitudinal wave studies, it could still be a possible modelling strategy with fruitful results.  
+
 - Joao, I. C., Lucas, A., Schaumburg, J., & Schwaab, B. (2022). Dynamic clustering of multivariate panel data. Journal of Econometrics.
 
 
