@@ -196,6 +196,10 @@ names(anorexia_summary)[names(anorexia_summary) == "mean"] <- "Weight"
 
 ```
 
+## Remarks: 
+
+- Notice that we focus on the Binary GLM which is based on binary data. For instance, when considering other forms of data such as count data which is particularly useful in various actuarial and insurance applications, then we will need to consider the Poisson GLM which has a different specification in comparison to the Binomial GLM, although it still belongs to the Exponential Family with corresponding parameters (might add these in the future). 
+
 ### Example 4 
 
 Consider a high-dimensional Binomial GLM with a response variable being 'attrition' which represents a binary response, that is, a binary variable indicating whether a survey participant has droped from the follow-up study. 
