@@ -355,7 +355,9 @@ In the above example implemented in R the clustering of sequences with most simi
 
 In terms of economic theory the above statistical analysis can be expanded in order to address further economic policy research questions, such as: 
 - How do monetary shocks affect the transition to the different employment states and in particular in relation to the group clustering obtained from the algorithmic procedures of Sequence Analysis?
-- Which macroeconomic factors have explanatory power in explaining these employment transitions? In general a macroeconomist might be interested to investigate the impact of various macroeconomic shifts on individual mobility processes. Neverthless, these research questions are beyond the scope of this teaching page, as we focus on introducing certain econometric methods and statistical procedures which are particularly useful for related applied studies.   
+- Which macroeconomic factors have explanatory power in explaining these employment transitions? 
+
+In general a macroeconomist might be interested to investigate the impact of various macroeconomic shifts on individual mobility processes. Neverthless, these research questions are beyond the scope of this teaching page, as we focus on introducing certain econometric methods and statistical procedures which are particularly useful for related applied studies.   
 
 ## References
 
