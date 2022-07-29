@@ -1,7 +1,11 @@
 # Applied-Econometrics-R
 
 
-A teaching page presenting various aspects related to Applied Econometrics Using R (Drafted July 2022).
+A teaching page presenting various aspects related of Applied Econometrics Using R (Drafted July 2022).
+
+### Course Overview:
+
+The main philosophy with this course is to combine traditional statistical modelling methodologies such as GLMs (Binary data only) with more formal econometric specifications suitable for both cross-sectional and time series data. Emphasis with this course is some important economic and finance applications such as the modelling of employment trajectories as well as modelling of probability of default. Furthermore, we introduce state-of-the-art techniques and programming capabilities with R for each topic covered.
 
 # Introduction
 
