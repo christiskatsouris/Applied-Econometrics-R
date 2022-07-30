@@ -497,6 +497,8 @@ On Credit Scoring:
 - Kiefer, N. M. (2010). Default estimation and expert information. Journal of Business & Economic Statistics, 28(2), 320-328.
 - Kiefer, N. M. (2011). Default estimation, correlated defaults, and expert information. Journal of Applied Econometrics, 26(2), 173-192.
 
+## Further Reading (Advanced Topics)
+
 On Properties of Hazard functions:
 - Chen, S. (2019). Quantile regression for duration models with time-varying regressors. Journal of Econometrics, 209(1), 1-17.
 - Hahn, J. (1994). The efficiency bound of the mixed proportional hazard model. The Review of Economic Studies, 61(4), 607-629. 
