@@ -266,7 +266,7 @@ Then, the MLE methodology can be employed to determine the value of the unknown 
 
 # [B]. Sequence Analysis and Logistic Regression
 
-Sequence Analysis is a non-parametric technique particularly useful for statistical inference with longitudinal data of employment and work-family related trajectories. Such data are commonly used in Labour Economics, Social Statistics and Demography and the main scope is to find statistical significant covariates that explain the particular data topologies across time (Katsouris C. and Ierodiakonou C. (2021)). 
+Sequence Analysis is a non-parametric technique particularly useful for statistical inference with longitudinal data of employment and work-family related trajectories. Such data are commonly used in Labour Economics, Social Statistics and Demography and the main scope is to find statistical significant covariates that explain the particular data topologies across time (Katsouris C. and Ierodiakonou C. (2022)). 
 
 Although the presence of time-varying covariates requires additional regularity conditions, the use of sequence analysis along with the implementation of a Logistic Regression (Binomial GLM) provides a possible methodology for analysing the trajectories of such Survey Study participants for static data structures, such as a particular cross-sectional or wave dataset, that is, a follow-up study for a given period of time.     
 
@@ -384,7 +384,7 @@ In general a macroeconomist might be interested to investigate the impact of var
 - Aisenbrey, S., & Fasang, A. (2017). The interplay of work and family trajectories over the life course: Germany and the United States in comparison. American Journal of Sociology, 122(5), 1448-1484.
 - Bester, C. A., Conley, T. G., & Hansen, C. B. (2011). Inference with dependent data using cluster covariance estimators. Journal of Econometrics, 165(2), 137-151.
 - Gabadinho, A., Ritschard, G., Mueller, N. S., & Studer, M. (2011). Analyzing and visualizing state sequences in R with TraMineR. Journal of statistical software, 40(4), 1-37.
-- Katsouris C. & Ierodiakonou C. (2021). A Sequence Analysis of Employment Trajectories with Cluster-Based Logistic GLM. Department of Business and Public Administration. University of Cyprus. Working paper.   
+- Katsouris C. & Ierodiakonou C. (2022). A Sequence Analysis of Employment Trajectories with Cluster-Based Logistic GLM. Department of Business and Public Administration. University of Cyprus. Working paper.   
 - Lersch, P. M., Schulz, W., & Leckie, G. (2020). The variability of occupational attainment: How prestige trajectories diversified within birth cohorts over the twentieth century. American Sociological Review, 85(6), 1084-1116.
 - Liang, K. Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73(1), 13-22.
 - Studer, M., & Ritschard, G. (2016). What matters in differences between life trajectories: A comparative review of sequence dissimilarity measures. Journal of the Royal Statistical Society: Series A (Statistics in Society), 179(2), 481-511.
