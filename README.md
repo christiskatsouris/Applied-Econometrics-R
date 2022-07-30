@@ -402,9 +402,10 @@ In particular, when considering the modelling aspects of 'Dynamic Employment Tra
 
 # [C]. Average Treatment Effects Estimation 
 
-There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy outcomes. An R tutorial can be found [here](https://cran.r-project.org/web/packages/targeted/vignettes/ate.html). 
+There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy outcomes. Specifically, a treatment effect is how an outcome of interest, such as earnings, is affected by some treatment, such as a job training program.  
+We review the main components this framework, focusing on key aspects for estimation and inference. 
 
-The Average Treatment Effect is defined as below:
+Let D denote a treatment indicator, equal to 1 if the survey participant is treated and 0 otherwise. For example, D = 1 might correspond to enrollement in some training program or to some medical treatment. Then, the Average Treatment Effect is defined as below:
 
 $$ATE = \mathbb{E} [ Y(1) ] - \mathbb{E} [ Y(0) ]. $$
 
@@ -416,7 +417,18 @@ where we assume that the unconfoundedness condition holds.
 
 ## Remarks: 
 
-Notice that the main difference of ATE regression models in comparision to the Binomial GLM (Logistic Regression) is that we are modelling both a response and an explanatory variable which is binary. Additional covariates can be also incorporated but the use of a Generalized Linear Model is not a suitable modelling approach in this case.      
+- Notice that the main difference of ATE regression models in comparision to the Binomial GLM (Logistic Regression) is that we are modelling both a response and an explanatory variable which is binary. 
+- Additional covariates can be also incorporated but the use of a Generalized Linear Model is not a suitable modelling approach in this case.      
+
+An R tutorial with implementations of these models can be found [here](https://cran.r-project.org/web/packages/targeted/vignettes/ate.html).
+
+```R
+
+# Examples in R
+
+
+```
+
 
 ## References
 
