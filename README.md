@@ -272,7 +272,15 @@ Although the presence of time-varying covariates requires additional regularity 
 
 ### Example 5
 
-Consider a cross-sectional dataset which includes the employment trajectories of a group of survey participants. Implement the Sequence Analysis methodology as described in the R package ['TraMineR'](http://traminer.unige.ch/index.shtml). 
+Consider a cross-sectional dataset which includes the employment trajectories of a group of survey participants.
+
+Before fitting any statistical model to any form of data structure, a good practice is to do some preliminary data analysis in order to understand the nature of the given dataset. An important variable which provides insights regarding the socio-economic status across European countries is the income distribution. Furthermore, there is a vast literature on formal statistical methodologies that can be employed in order to obtain statistical significante evidence of stochastic dominance of cross-country income distributions.
+
+<img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/Income_Distributions.jpg" width="850"/>
+
+> Figure above displays the income distributions across main European countries based on reported annual income of the survey participants (whole population, i.e., no age restrictions) for the year 2014.  
+
+Next, we implement the Sequence Analysis methodology as described in the R package ['TraMineR'](http://traminer.unige.ch/index.shtml). 
 
 ```R
 
@@ -348,11 +356,6 @@ summary(model1)
 
 ```
 
-Before fitting any statistical model to any form of data structure, a good practice is to do some preliminary data analysis in order to understand the nature of the given dataset. An important variable which provides insights regarding the socio-economic status across European countries is the income distribution. Furthermore, there is a vast literature on formal statistical methodologies that can be employed in order to obtain statistical significante evidence of stochastic dominance of cross-country income distributions.
-
-<img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/Income_Distributions.jpg" width="850"/>
-
-> Figure above displays the income distributions across main European countries based on reported annual income of the survey participants (whole population, i.e., no age restrictions) for the year 2014.  
 
 ## Remarks: 
 
