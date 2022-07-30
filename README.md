@@ -494,6 +494,7 @@ Some important concepts in Survival Analysis include the following:
 
 On Credit Scoring and Default Models:
 - Agosto, A., Cavaliere, G., Kristensen, D., & Rahbek, A. (2016). Modeling corporate defaults: Poisson autoregressions with exogenous covariates (PARX). Journal of Empirical Finance, 38, 640-663.
+- Brettschneider, J., & Burgess, M. (2017). Using a frailty model to measure the effect of covariates on the disposition effect. Department of Statistics. University of Warwick. Working paper.
 - Bellotti, T., & Crook, J. (2013). Forecasting and stress testing credit card default using dynamic models. International Journal of Forecasting, 29(4), 563-574.
 - Banasik, J., Crook, J. N., & Thomas, L. C. (1999). Not if but when will borrowers default. Journal of the Operational Research Society, 50(12), 1185-1190.
 - Crook, J., & Bellotti, T. (2010). Time varying and dynamic models for default risk in consumer loans. Journal of the Royal Statistical Society: Series A (Statistics in Society), 173(2), 283-305.
