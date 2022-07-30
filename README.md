@@ -348,6 +348,11 @@ summary(model1)
 
 ```
 
+Before fitting any statistical model to any form of data structure, a good practice is to do some preliminary data analysis in order to understand the nature of the given dataset. An important variable which provides insights regarding the socio-economic status across European countries is the income distribution. Furthermore, there is a vast literature on formal statistical methodologies that can be employed in order to obtain statistical significante evidence of stochastic dominance of cross-country income distributions.
+
+
+
+
 ## Remarks: 
 
 Various statistics can be employed as dissimilarity measures for comparing the trajectories of sequences. Some of these include:
