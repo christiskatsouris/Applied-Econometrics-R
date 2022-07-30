@@ -440,6 +440,7 @@ An R tutorial with implementations of these models can be found [here](https://c
 - Hausman, J. A., & Wise, D. A. (1979). Attrition bias in experimental and panel data: the Gary income maintenance experiment. Econometrica: Journal of the Econometric Society, 455-473.
 - Huber, M. (2012). Identification of average treatment effects in social experiments under alternative forms of attrition. Journal of Educational and Behavioral Statistics, 37(3), 443-474.
 - Ma, X., & Wang, J. (2020). Robust inference using inverse probability weighting. Journal of the American Statistical Association, 115(532), 1851-1860.
+- Conti, G., Mason, G., & Poupakis, S. (2019). The Developmental Origins of Health Inequality. IZA DP 12448 and IFS WP 19-17. In the Oxford Research Encyclopedia of Health Economics (OUP), August 2019.
 - Katsouris, C. (2021). Treatment effect validation via a permutation test in Stata. [arXiv preprint:2110.12268](https://arxiv.org/abs/2110.12268).
 
 ## Further Reading (Advanced Topics)
