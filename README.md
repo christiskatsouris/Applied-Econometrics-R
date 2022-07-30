@@ -438,6 +438,10 @@ An R tutorial with implementations of these models can be found [here](https://c
 - Ma, X., & Wang, J. (2020). Robust inference using inverse probability weighting. Journal of the American Statistical Association, 115(532), 1851-1860.
 - Katsouris, C. (2021). Treatment effect validation via a permutation test in Stata. [arXiv preprint:2110.12268](https://arxiv.org/abs/2110.12268).
 
+## Further Reading (Advanced Topics)
+
+- Chernozhukov, V., Newey, W. K., & Singh, R. (2022). Automatic debiased machine learning of causal and structural effects. Econometrica, 90(3), 967-1027.
+
 
 # [D]. Proportional Hazard Regression Model
 
