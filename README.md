@@ -406,7 +406,7 @@ In particular, when considering the modelling aspects of 'Dynamic Employment Tra
 
 # [C]. Average Treatment Effects Estimation 
 
-There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy outcomes. Specifically, a treatment effect is how an outcome of interest, such as earnings, is affected by some treatment, such as a job training program.  
+There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy interventions/outcomes. Specifically, a treatment effect is how an outcome of interest, such as earnings, is affected by some treatment, such as a job training program.  
 We review the main components this framework, focusing on key aspects for estimation and inference. 
 
 Let D denote a treatment indicator, equal to 1 if the survey participant is treated and 0 otherwise. For example, D = 1 might correspond to enrollement in some training program or to some medical treatment. Then, the Average Treatment Effect is defined as below:
@@ -436,12 +436,14 @@ An R tutorial with implementations of these models can be found [here](https://c
 
 ## References
 
-- LaLonde, R. J. (1986). Evaluating the econometric evaluations of training programs with experimental data. The American economic review, 604-620.
-- Hausman, J. A., & Wise, D. A. (1979). Attrition bias in experimental and panel data: the Gary income maintenance experiment. Econometrica: Journal of the Econometric Society, 455-473.
-- Huber, M. (2012). Identification of average treatment effects in social experiments under alternative forms of attrition. Journal of Educational and Behavioral Statistics, 37(3), 443-474.
-- Ma, X., & Wang, J. (2020). Robust inference using inverse probability weighting. Journal of the American Statistical Association, 115(532), 1851-1860.
 - Conti, G., Mason, G., & Poupakis, S. (2019). The Developmental Origins of Health Inequality. IZA DP 12448 and IFS WP 19-17. In the Oxford Research Encyclopedia of Health Economics (OUP), August 2019.
+- Conti, G., Heckman, J. J., & Pinto, R. (2016). The effects of two influential early childhood interventions on health and healthy behaviour. The Economic Journal, 126(596), F28-F65.
+- Huber, M. (2012). Identification of average treatment effects in social experiments under alternative forms of attrition. Journal of Educational and Behavioral Statistics, 37(3), 443-474.
+- Hausman, J. A., & Wise, D. A. (1979). Attrition bias in experimental and panel data: the Gary income maintenance experiment. Econometrica: Journal of the Econometric Society, 455-473.
 - Katsouris, C. (2021). Treatment effect validation via a permutation test in Stata. [arXiv preprint:2110.12268](https://arxiv.org/abs/2110.12268).
+- Ma, X., & Wang, J. (2020). Robust inference using inverse probability weighting. Journal of the American Statistical Association, 115(532), 1851-1860.
+- LaLonde, R. J. (1986). Evaluating the econometric evaluations of training programs with experimental data. The American economic review, 604-620.
+
 
 ## Further Reading (Advanced Topics)
 
