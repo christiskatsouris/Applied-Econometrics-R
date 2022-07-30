@@ -391,6 +391,8 @@ In general a macroeconomist might be interested to investigate the impact of var
 - Hidden Markov Models (to add references and related R package). 
 In particular, when considering the modelling aspects of 'Dynamic Employment Trajectories', that is, time-varying to track gradual changes in cluster characteristics over time, then one has to consider modelling the transitions from one cluster to the next through time. A suitable statistical methodology that captures such phenomena is the Hidden Markov Model (HMM). Specifically, under the assumption that the latent (hidden) states evolve over time, then a HMM can characterize these transition dynamics. Although, pragmatically such dynamics would be more challenging to capture from a survey study, as we would need to identify the same study participants from 2 consequentive longitudinal waves, it could still be a possible modelling strategy with fruitful results. 
 
+- Dzemski, A., & Okui, R. (2017). Confidence set for group membership. arXiv preprint arXiv:1801.00332.
+
 - Joao, I. C., Lucas, A., Schaumburg, J., & Schwaab, B. (2022). Dynamic clustering of multivariate panel data. Journal of Econometrics.
 
 - Charu C. Aggarwal (2014). Data Classification: Algorithms and Applications 2014. Data Classification: Algorithms and Applications. IBM T.J Watson Research Center, New York, USA. CRC Press.  
