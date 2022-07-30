@@ -362,8 +362,9 @@ Moreover the entropy index (i.e., Gini heterogeneity index) provides a measure o
 
 $$H_t = \sum_{j=1}^q p_{tj} ln (  p_{tj} ),$$
 
+where q = 1,...,7 (the number of different states) and t = 1,...,48 time periods. The (aggregate) entropy statistic provides a statistical measure of the smoothness of transitions between the different states.  
 
-<img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/graphs_entropy_measure.jpg" width="750"/>
+<img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/graphs_entropy_measure.jpg" width="785"/>
 
 > The entropy measure can be computed for each individual (shows the transition rates for moving between the employment states). Then, we can plot the histogram for the entropies of all individuals. In particular, there is indication for a proportion of the individuals with entropy rate around 0.3, however we are interested to identify the states of which there is often transitions to/from as well as the characteristics of individuals with frequent transitions. In addition the figure above shows the aggregate entropy measure for main European countries (EU periphery). The estimation of the aggregated entropy measure is based on monthly time-spanned data from the longitudinal wave between the years 2011 to 2014 (48 observations).  
 
