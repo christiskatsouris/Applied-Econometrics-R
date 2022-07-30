@@ -549,6 +549,10 @@ The proposed Course Syllabus is currently under development and has not been off
 
 Any errors or omissions are the responsibility of the author.
 
+# Acknowledgments
+
+The author acknowledges financial support from related Graduate Teaching Assistant posts as well as funding from Research Grants of interdisciplinary Centers of research excellence based at the University of Cyprus (UCY) as well as at University College London (UCL).  
+
 # How to Cite a Website 
 
 See: https://www.mendeley.com/guides/web-citation-guide/ 
