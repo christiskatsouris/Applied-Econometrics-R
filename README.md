@@ -376,6 +376,50 @@ Furthermore, in the above example implemented in R the clustering of sequences w
 
 <img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/Clustering.jpg" width="785"/>
 
+> Figure Above corresponds to the Longitudinal wave of 2014 for the sub-population with age 18-22
+
+```R
+
+> #model 1
+> model1 <- glm(mb4 ~ male + age + education2011 + educf2011 + empf_jan2011_n,  data = mydata, family = "binomial")
+> summary(model1)
+
+Call:
+glm(formula = mb4 ~ male + age + education2011 + educf2011 + 
+    empf_jan2011_n, family = "binomial", data = mydata)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.6858  -0.5605  -0.4084  -0.3126   2.8272  
+
+Coefficients:
+                 Estimate Std. Error z value Pr(>|z|)    
+(Intercept)       1.02233    0.80669   1.267 0.205041    
+male1             0.26125    0.12087   2.161 0.030666 *  
+age19             0.40290    0.20457   1.969 0.048896 *  
+age20             0.72207    0.19677   3.670 0.000243 ***
+age21             1.07375    0.19410   5.532 3.16e-08 ***
+age22             1.06336    0.20224   5.258 1.46e-07 ***
+education2011  2  0.09087    0.68433   0.133 0.894360    
+education2011  3 -1.48391    0.63431  -2.339 0.019314 *  
+education2011  4 -2.20318    0.75225  -2.929 0.003403 ** 
+educf2011  2     -0.95206    0.49244  -1.933 0.053192 .  
+educf2011  3     -1.96732    0.47881  -4.109 3.98e-05 ***
+educf2011  4     -3.09990    0.52212  -5.937 2.90e-09 ***
+empf_jan2011_n1  -0.41636    0.13466  -3.092 0.001988 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 2207.6  on 2769  degrees of freedom
+Residual deviance: 1959.9  on 2757  degrees of freedom
+  (1372 observations deleted due to missingness)
+AIC: 1985.9
+
+Number of Fisher Scoring iterations: 5
+
+```
 
 In terms of economic theory the above statistical analysis can be expanded in order to address further economic policy research questions, such as: 
 - How do monetary shocks affect the transition to the different employment states and in particular in relation to the group clustering obtained from the algorithmic procedures of Sequence Analysis?
