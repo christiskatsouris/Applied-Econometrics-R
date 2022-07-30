@@ -360,7 +360,7 @@ Various statistics can be employed as dissimilarity measures for comparing the t
 
 Moreover the entropy index (i.e., Gini heterogeneity index) provides a measure of sequence heterogeneity. In other words, it captures the state changes that occur in the sequences of trajectories. Furthermore, the dissimilarity between two sequences can be obtained by considering the necessary operations to transform one sequence into the other. For example, given a longitudinal dataset grouped per European country one might be interested to obtain dissimilarity measures which can provide insights regarding the level of similarity of trajectories of a particular sub-population, such as the young people when followed up. In addition we can construct a logistic regression model across these groups based on a suitable set of covariates in order to obtain statistical evidence explaining the differences of these employment trajectories. 
 
-<img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/graphs_entropy_measure.jpg" width="550"/>
+<img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/graphs_entropy_measure.jpg" width="750"/>
 
 In the above example implemented in R the clustering of sequences with most similarities based on the OM algorithm has identified four distinct patterns of school to work transitions (i.e., employment trajectories) for the sub-population of young people. Thus, the role of statistical modelling (using Logistic regression) is exactly to provide statistical evidence on how cluster membership depends on certain covariates which capture the main socio-economic characteristics of the particular population.   
 
