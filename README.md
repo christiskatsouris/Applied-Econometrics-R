@@ -5,7 +5,7 @@ A teaching page presenting various aspects related of Applied Econometrics Using
 
 ### Course Overview:
 
-The main philosophy with this course is to combine traditional statistical modelling methodologies such as GLMs (Binary data only) with more formal econometric specifications suitable for both cross-sectional and time series data. Emphasis with this course is to introduce some important economic and finance applications such as the modelling of employment trajectories as well as modelling the probability of default. Furthermore, we introduce state-of-the-art techniques and programming capabilities with R for each topic covered.
+The main philosophy with this course is to combine traditional statistical modelling methodologies such as GLMs (Binary data only) with modern econometric specifications suitable for both cross-sectional and time series data. Emphasis with this course is to introduce some important economic and finance applications such as the modelling of employment trajectories as well as the modelling of the probability of corporate/firm default. Furthermore, we introduce state-of-the-art techniques and programming capabilities with R for each topic covered.
 
 # Introduction
 
@@ -492,7 +492,8 @@ Some important concepts in Survival Analysis include the following:
 
 ## References
 
-On Credit Scoring:
+On Credit Scoring and Default Models:
+- Agosto, A., Cavaliere, G., Kristensen, D., & Rahbek, A. (2016). Modeling corporate defaults: Poisson autoregressions with exogenous covariates (PARX). Journal of Empirical Finance, 38, 640-663.
 - Bellotti, T., & Crook, J. (2013). Forecasting and stress testing credit card default using dynamic models. International Journal of Forecasting, 29(4), 563-574.
 - Banasik, J., Crook, J. N., & Thomas, L. C. (1999). Not if but when will borrowers default. Journal of the Operational Research Society, 50(12), 1185-1190.
 - Crook, J., & Bellotti, T. (2010). Time varying and dynamic models for default risk in consumer loans. Journal of the Royal Statistical Society: Series A (Statistics in Society), 173(2), 283-305.
