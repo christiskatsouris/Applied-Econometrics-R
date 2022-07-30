@@ -399,8 +399,6 @@ In particular, when considering the modelling aspects of 'Dynamic Employment Tra
 
 - Lumsdaine, R. L., Okui, R., & Wang, W. (2022). Estimation of panel group structure models with structural breaks in group memberships and coefficients. Journal of Econometrics.
 
-- Charu C. Aggarwal (2014). Data Classification: Algorithms and Applications 2014. Data Classification: Algorithms and Applications. IBM T.J Watson Research Center, New York, USA. CRC Press.  
-
 
 # [C]. Average Treatment Effects Estimation 
 
@@ -516,17 +514,19 @@ On Probability Theory:
 
 # Reading List
 
-$\textbf{[1]}$ Zeileis, C. K. A. (2008). Applied Econometrics with R. Springer: New York, NY, USA.
+$\textbf{[1]}$  Davidson, J. (2000). Econometric theory. John Wiley & Sons.
 
 $\textbf{[2]}$  Dunn, P. K., & Smyth, G. K. (2018). Generalized linear models with examples in R (Vol. 53). New York: Springer. 
 
-$\textbf{[3]}$  Millimet, D., Smith, J., & Vytlacil, E. (2008). Modelling and evaluating treatment effects in econometrics. Emerald Group Publishing.
+$\textbf{[3]}$ Zeileis, C. K. A. (2008). Applied Econometrics with R. Springer: New York, NY, USA.
 
-$\textbf{[4]}$  Kleinbaum, D. G., & Klein, M. (2012). Survival analysis: a self-learning text (Vol. 3). New York: Springer.
+$\textbf{[4]}$  Millimet, D., Smith, J., & Vytlacil, E. (2008). Modelling and evaluating treatment effects in econometrics. Emerald Group Publishing.
 
 $\textbf{[5]}$  Aalen, O., Borgan, O., & Gjessing, H. (2008). Survival and event history analysis: a process point of view. Springer Science & Business Media.
 
-$\textbf{[6]}$  Davidson, J. (2000). Econometric theory. John Wiley & Sons.
+$\textbf{[6]}$  Kleinbaum, D. G., & Klein, M. (2012). Survival analysis: a self-learning text (Vol. 3). New York: Springer.
+
+$\textbf{[7]}$ Charu C. Aggarwal (2014). Data Classification: Algorithms and Applications 2014. Data Classification: Algorithms and Applications. IBM T.J Watson Research Center, New York, USA. CRC Press.  
 
 # Learning Outcomes
 
