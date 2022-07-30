@@ -378,9 +378,11 @@ In general a macroeconomist might be interested to investigate the impact of var
 
 ## References
 
+
 - Aisenbrey, S., & Fasang, A. (2017). The interplay of work and family trajectories over the life course: Germany and the United States in comparison. American Journal of Sociology, 122(5), 1448-1484.
 - Bester, C. A., Conley, T. G., & Hansen, C. B. (2011). Inference with dependent data using cluster covariance estimators. Journal of Econometrics, 165(2), 137-151.
 - Gabadinho, A., Ritschard, G., Mueller, N. S., & Studer, M. (2011). Analyzing and visualizing state sequences in R with TraMineR. Journal of statistical software, 40(4), 1-37.
+- Katsouris C. & Ierodiakonou C. (2021). A Sequence Analysis of Employment Trajectories with Cluster-Based Logistic GLM. Department of Business and Public Administration. University of Cyprus. Working paper.   
 - Lersch, P. M., Schulz, W., & Leckie, G. (2020). The variability of occupational attainment: How prestige trajectories diversified within birth cohorts over the twentieth century. American Sociological Review, 85(6), 1084-1116.
 - Liang, K. Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73(1), 13-22.
 - Studer, M., & Ritschard, G. (2016). What matters in differences between life trajectories: A comparative review of sequence dissimilarity measures. Journal of the Royal Statistical Society: Series A (Statistics in Society), 179(2), 481-511.
@@ -391,7 +393,7 @@ In general a macroeconomist might be interested to investigate the impact of var
 - Hidden Markov Models (to add references and related R package). 
 In particular, when considering the modelling aspects of 'Dynamic Employment Trajectories', that is, time-varying to track gradual changes in cluster characteristics over time, then one has to consider modelling the transitions from one cluster to the next through time. A suitable statistical methodology that captures such phenomena is the Hidden Markov Model (HMM). Specifically, under the assumption that the latent (hidden) states evolve over time, then a HMM can characterize these transition dynamics. Although, pragmatically such dynamics would be more challenging to capture from a survey study, as we would need to identify the same study participants from 2 consequentive longitudinal waves, it could still be a possible modelling strategy with fruitful results. 
 
-- Hansen, B. E., & Lee, S. (2019). Asymptotic theory for clustered samples. Journal of econometrics, 210(2), 268-290.
+- Hansen, B. E., & Lee, S. (2019). Asymptotic theory for clustered samples. Journal of Econometrics, 210(2), 268-290.
 
 - Dzemski, A., & Okui, R. (2017). Confidence set for group membership. arXiv preprint arXiv:1801.00332.
 
