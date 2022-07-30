@@ -552,7 +552,9 @@ Any errors or omissions are the responsibility of the author.
 
 # Acknowledgments
 
-The author acknowledges financial support from related Graduate Teaching Assistant posts as well as funding from Research Grants of interdisciplinary Centers of research excellence based at the University of Cyprus (UCY) as well as at University College London (UCL).  
+The author greatfully acknowledges financial support from related Graduate Teaching Assistantships as well as funding from Research Grants of various interdisciplinary Centers of research excellence based at the University of Cyprus (UCY) as well as at University College London (UCL).  
+
+If you are interested to collaborate on any of the general theme discussed in this teaching page, don't hesitate to contact me at christiskatsouris@gmail.com
 
 # How to Cite a Website 
 
