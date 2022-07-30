@@ -556,7 +556,7 @@ Any errors or omissions are the responsibility of the author.
 
 # Acknowledgments
 
-The author greatfully acknowledges financial support from related Graduate Teaching Assistantships as well as funding from Research Grants of various interdisciplinary Centers of research excellence based at the University of Cyprus (UCY) as well as at University College London (UCL).  
+The author greatfully acknowledges financial support from related Graduate Teaching Assistantships at the School of Economic, Social and Political Sciences of the University of Southampton as well as funding from Research Grants of various interdisciplinary Centers of research excellence based at the University of Cyprus (UCY) and at University College London (UCL).  
 
 If you are interested to collaborate on any of the topics discussed in this teaching page, don't hesitate to contact me at christiskatsouris@gmail.com
 
