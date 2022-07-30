@@ -291,7 +291,6 @@ library(TraMineR)
 library(cluster)
 
 ## STEP 1: Variable Extraction and Data Transformations
-
 input  <- read_dta("Longitudinal_2014.dta") 
 mydata <- data.frame(input)
 start  <- which(colnames(mydata)=="jan2011")
@@ -310,17 +309,14 @@ mydata.seq  <- seqdef(mydata, var=start:end, states=mvad.alphab, labels=c("EFT",
 seqiplot( mydata.seq, title = "Index plot (first 10 sequences)",withlegend = TRUE )
 
 ## STEP 2: COMPUTE PAIRWISE OPTIMAL MATCHING (OM) DISTANCES
-
 mvad.om1 <- seqdist(mydata.seq, method = "OM", indel = 1, sm = "TRATE",with.missing = TRUE)
 
 ## STEP 3: AGGLOMERATIVE HIERARCHICAL CLUSTERING  
-
 clusterward <- agnes(mvad.om1, diss = TRUE, method = "ward")
 mvad.cl4    <- cutree(clusterward, k = 4)
 cl4.lab     <- factor(mvad.cl4, labels = paste("Cluster", 1:4))
 
 ## STEP 4: VISUALIZE THE CLUSTER PATTERNS 
-
 seqdplot(mydata.seq, group = cl4.lab, border=NA)
 
 # MEAN TIME SPENT IN EACH STATE BY GENDER
@@ -329,7 +325,6 @@ seqfplot( mydata.seq, group = Cluster3, pbarw = T )
 
 
 ## STEP 5: LONGITUDINAL ENTROPY
-
 par(mfrow = c(1, 2))
 entropies <- seqient(mydata.seq)
 hist(entropies)
@@ -347,7 +342,6 @@ submat   <- seqsubm(mydata.seq, method = "TRATE")
 dist.om1 <- seqdist(mydata.seq, method = "OM", indel = 1,sm = submat)
 
 ## step 6: BINIMIAL GLM IMPLEMENTATION
-
 mb4 <- (cl4.lab == "Cluster 1")
 
 # model 1
