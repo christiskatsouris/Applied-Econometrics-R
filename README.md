@@ -331,7 +331,6 @@ seqdplot(mydata.seq, group = cl4.lab, border=NA)
 seqmtplot( mydata.seq, group = mydata$male, title = "Mean time" )
 seqfplot( mydata.seq, group = Cluster3, pbarw = T )
 
-
 ## STEP 5: LONGITUDINAL ENTROPY
 par(mfrow = c(1, 2))
 entropies <- seqient(mydata.seq)
