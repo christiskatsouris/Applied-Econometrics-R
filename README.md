@@ -1,7 +1,7 @@
 # Applied-Econometrics-R
 
 
-A teaching page presenting various aspects related of Applied Econometrics Using R (Drafted July 2022).
+A teaching page presenting various aspects related to Applied Econometrics Using R (Drafted July 2022).
 
 ### Course Overview:
 
