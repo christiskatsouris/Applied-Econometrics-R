@@ -17,7 +17,7 @@ In this teaching page we present four main applications which are commonly prese
 
 (ii)  Sequence Analysis for evaluating employment trajectories, 
 
-(iii) Average Treatment Effects Estimation for regression models based on conditional mean specification forms, and 
+(iii) Average Treatment Effects Estimation based on conditional mean specification forms, and 
 
 (iv)  Statistical Inference based on the Proportional Hazard Model which is useful for modelling the probability of default in various settings.
 
