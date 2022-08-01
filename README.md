@@ -471,8 +471,7 @@ In particular, when considering the modelling aspects of 'Dynamic Employment Tra
 
 # [C]. Average Treatment Effects Estimation 
 
-There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy interventions/outcomes. Specifically, a treatment effect is how an outcome of interest, such as earnings, is affected by some treatment, such as a job training program.  
-We review the main components this framework, focusing on key aspects for estimation and inference. 
+There is a growing literature on modelling methodologies for Average Treatment Effects which are particularly useful for evaluating economic and health policy interventions/outcomes. Specifically, a treatment effect is how an outcome of interest, such as earnings, is affected by some treatment, such as a job training program. We review the main components of the particular framework with main focus the key aspects of statistical etimation and inference. 
 
 Let D denote a treatment indicator, equal to 1 if the survey participant is treated and 0 otherwise. For example, D = 1 might correspond to enrollement in some training program or to some medical treatment. Then, the Average Treatment Effect is defined as below:
 
