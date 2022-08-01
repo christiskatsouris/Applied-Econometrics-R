@@ -15,7 +15,7 @@ In this teaching page we present four main applications which are commonly prese
 
 (i)   Statistical Analysis of Binary Data based on the Generalized Linear Models (GLMs),
 
-(ii)  Sequence Analysis for evaluating employment and/or work trajectories, 
+(ii)  Sequence Analysis for evaluating employment trajectories, 
 
 (iii) Average Treatment Effects Estimation for regression models based on conditional mean specification forms, and 
 
