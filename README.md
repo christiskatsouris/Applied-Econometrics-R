@@ -383,7 +383,7 @@ Furthermore, in the above example implemented in R the clustering of sequences w
 
 <img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/Clustering.jpg" width="785"/>
 
-> Figure above corresponds to the Longitudinal wave of 2014 for the sub-population with age 18-22.
+> Figure above corresponds to the Longitudinal wave of 2014 for the sub-population with age 18-22. Data resource: EU-SILC survey study. Data analysis is part of work done while being a Research Assistant (Special Scientist) at UCY during the academic year 2016-2017.
 
 ```R
 
