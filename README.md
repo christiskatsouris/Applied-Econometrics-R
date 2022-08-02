@@ -432,13 +432,13 @@ In terms of economic theory the above statistical analysis can be expanded in or
 - How do monetary shocks affect the transition to the different employment states and in particular in relation to the group clustering obtained from the algorithmic procedures of Sequence Analysis?
 - Which macroeconomic factors have explanatory power in explaining these employment transitions? 
 
-In general a macroeconomist might be interested to investigate the impact of various macroeconomic shifts (i.e., structural changes in the economic sence) on individual mobility processes (or latent processes) such as employment trajectories. Neverthless, these particular research questions are beyond the scope of this teaching page, as our main focus is to introduce certain econometric methods and statistical procedures which are particularly useful for related applied and theoretical studies. 
+In general a macroeconomist might be interested to investigate the impact of various macroeconomic shifts (i.e., structural changes in the economic sence) on individual mobility processes (or latent processes) such as employment trajectories. However, these particular research questions are beyond the scope of this teaching page, as our main focus is to introduce certain econometric methods and statistical procedures which are particularly useful for related applied and theoretical studies. 
 
 On the other hand, an econometrician might be interested in the following research questions:
 
-- Finding a statistical procedure (e.g., econometric identification) which can be employed in order to determine the cluster membership of certain sub-populations, which is robust to various unobserved effects which can affect inference such as: selection bias, clustered errors, changing dynamics across waves of the longitudinal study. 
+- Applying a suitable statistical procedure (e.g., econometric identification) which can be employed in order to determine the cluster membership of certain sub-populations, while ensuring robustness to various unobserved effects that can affect inference such as: selection bias, clustered errors, changing dynamics across waves of the longitudinal study etc. 
 
-- Another relevant research question is to find suitable mechanisms in order to account for the possible presence of endogenous sorting, ensuring this way robust econometric estimation and inference procedures.
+- Another relevant research question is to find suitable mechanisms in order to account for the possible presence of endogenous sorting, ensuring this way the implementation of robust econometric methodologies and estimation results.
 
 ## References
 
