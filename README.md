@@ -486,8 +486,9 @@ where we assume that the unconfoundedness condition holds.
 
 ## Remarks: 
 
-- Notice that the main difference of ATE regression models in comparision to the Binomial GLM (Logistic Regression) is that we are modelling both a response and an explanatory variable which is binary. 
-- Additional covariates can be also incorporated but the use of a Generalized Linear Model is not a suitable modelling approach in this case.      
+- First, notice that the main difference of ATE regression models in comparision to the Binomial GLM (Logistic Regression) is that we are modelling both a response and an explanatory variable which is binary. Furthermore, additional covariates can be also incorporated but the use of a Generalized Linear Model is not a suitable modelling approach in this case.      
+
+- Second, the notion of 'attrition', especially in longitudinal studies requires specific modeling techniques. According to Gibbons and Hedeker (2000), various methods have been proposed to handle missing data in longitudinal studies (Heckman, 1976). Furthermore, these alternative approaches are termed 'selective models' and involve two stages which are either performed separately or iteratively. In particular, the first stage is to develop a predictive model for whether or not a subject drops out, using variables obtained prior to the dropout often the variables measured at baseline. This model of dropout provides a predicted dropout probability or propensity for each subject. Then, these dropout propensity scores are used in the second stage longitudinal data model as covariate to adjust for the potential influence of dropout.    
 
 An R tutorial with implementations of these models can be found [here](https://cran.r-project.org/web/packages/targeted/vignettes/ate.html).
 
@@ -505,6 +506,7 @@ An R tutorial with implementations of these models can be found [here](https://c
 - Conti, G., Heckman, J. J., & Pinto, R. (2016). The effects of two influential early childhood interventions on health and healthy behaviour. The Economic Journal, 126(596), F28-F65.
 - Huber, M. (2012). Identification of average treatment effects in social experiments under alternative forms of attrition. Journal of Educational and Behavioral Statistics, 37(3), 443-474.
 - Hausman, J. A., & Wise, D. A. (1979). Attrition bias in experimental and panel data: the Gary income maintenance experiment. Econometrica: Journal of the Econometric Society, 455-473.
+- Heckman, J. J. (1976). The common structure of statistical models of truncation, sample selection and limited dependent variables and a simple estimator for such models. Annals of Economic and Social measurement, Volume 5, number 4 (pp. 475-492).
 - Katsouris, C. (2021). Treatment effect validation via a permutation test in Stata. [arXiv preprint:2110.12268](https://arxiv.org/abs/2110.12268).
 - Ma, X., & Wang, J. (2020). Robust inference using inverse probability weighting. Journal of the American Statistical Association, 115(532), 1851-1860.
 - LaLonde, R. J. (1986). Evaluating the econometric evaluations of training programs with experimental data. The American economic review, 604-620.
