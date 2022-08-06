@@ -447,6 +447,7 @@ On the other hand, an econometrician might be interested in the following resear
 - Bester, C. A., Conley, T. G., & Hansen, C. B. (2011). Inference with dependent data using cluster covariance estimators. Journal of Econometrics, 165(2), 137-151.
 - Frech, A., & Damaske, S. (2019). Men’s income trajectories and physical and mental health at midlife. American Journal of Sociology, 124(5), 1372-1412.
 - Gabadinho, A., Ritschard, G., Mueller, N. S., & Studer, M. (2011). Analyzing and visualizing state sequences in R with TraMineR. Journal of Statistical Software, 40(4), 1-37.
+- Gibbons, R. D., & Hedeker, D. (2000). Applications of mixed-effects models in biostatistics. Sankhyā: The Indian Journal of Statistics, Series B, 70-103.
 - Katsouris C. & Ierodiakonou C. (2022). A Sequence Analysis of Employment Trajectories with Cluster-Based Logistic GLM. Department of Business and Public Administration. University of Cyprus. Working paper.   
 - Lersch, P. M., Schulz, W., & Leckie, G. (2020). The variability of occupational attainment: How prestige trajectories diversified within birth cohorts over the twentieth century. American Sociological Review, 85(6), 1084-1116.
 - Liang, K. Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73(1), 13-22.
