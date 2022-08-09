@@ -231,9 +231,9 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 ## Remarks: 
 
-1. An important aspect after model fitting is model checking and diagnostics. Briefly speaking model checking is about investigating that the assumptions of the model are in agreement with the data. 
+$\textbf{(a).}$ An important aspect after model fitting is model checking and diagnostics. Briefly speaking model checking is about investigating that the assumptions of the model are in agreement with the data. 
 
-2. In practise model diagnostics implies checking for misspecification which includes for instance: 
+$\textbf{(b).}$  In practise model diagnostics implies checking for misspecification which includes for instance: 
 
 (i)   Testing the independence and constant variance of the errors. 
 
@@ -243,7 +243,9 @@ out$selected             <- lapply(out$selected, function(x) x[x!="(Intercept)"]
 
 (iv)  Residual Analysis and Outlier Detection. 
 
-3. In order to avoid having correlated explanatory variables (the problem of multicollinearity in classical econometric applications), a commony used approach, especially under the presence of a large number of candidate covariates, is to consider a subset of explantory variables, which is the model selection step. Furthermore, although econometric theory can provide some indication of possible covariates to choose when considering modelling based on causal identification, the model selection step can be implemented using one of the following statistical methodologies: 
+In summary the above testing procedures are concerned with tests regarding the violations of commonly used assumptions in linear regression models. Examples include: testing for violations of linearity assumption, testing for violation of constant variance assumption and so on (see,  [Sage et al. (2022)](https://www.tandfonline.com/doi/full/10.1080/00031305.2022.2107568)).
+
+$\textbf{(c).}$  Furthermore, in order to avoid having correlated explanatory variables (the problem of multicollinearity in classical econometric applications), a commony used approach, especially under the presence of a large number of candidate covariates, is to consider a subset of explantory variables, which is the model selection step. Furthermore, although econometric theory can provide some indication of possible covariates to choose when considering modelling based on causal identification, the model selection step can be implemented using one of the following statistical methodologies: 
 
 (i)  Automatic variable selection (such as backward elimination, forward selection and step-wise selection among others).
 
@@ -263,6 +265,7 @@ Then, the MLE methodology can be employed to determine the value of the unknown 
 - Barro, R. J., & Becker, G. S. (1989). Fertility choice in a model of economic growth. Econometrica: Journal of the Econometric Society, 481-501.
 - Hansen, P. R., Lunde, A., & Nason, J. M. (2011). The model confidence set. Econometrica, 79(2), 453-497.
 - Manski, C. F., & Thompson, T. S. (1989). Estimation of best predictors of binary response. Journal of Econometrics, 40(1), 97-123.
+- Sage, A. J., Liu, Y., & Sato, J. (2022). From Black Box to Shining Spotlight: Using Random Forest Prediction Intervals to Illuminate the Impact of Assumptions in Linear Regression. The American Statistician, (just-accepted), 1-26.
 
 # [B]. Sequence Analysis and Logistic Regression
 
