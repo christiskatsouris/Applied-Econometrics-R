@@ -243,7 +243,7 @@ $\textbf{(b).}$  In practise model diagnostics implies checking for misspecifica
 
 (iv)  Residual Analysis and Outlier Detection. 
 
-In summary the above testing procedures are concerned with tests regarding the violations of commonly used assumptions in linear regression models. Examples include: testing for violations of linearity assumption, testing for violation of constant variance assumption and so on (see,  [Sage et al. (2022)](https://www.tandfonline.com/doi/full/10.1080/00031305.2022.2107568)).
+In summary the above testing procedures are concerned with tests regarding the violations of commonly used assumptions in linear regression models. Examples include: testing for violations of linearity assumption, testing for violation of constant variance assumption and so on (see,  [Sage et al. (2022)](https://www.tandfonline.com/doi/full/10.1080/00031305.2022.2107568)). Lastly, residual analysis based on fitted linear regression models as well as outlier detection are considered to be classical statistical model diagnostic tools. 
 
 $\textbf{(c).}$  Furthermore, in order to avoid having correlated explanatory variables (the problem of multicollinearity in classical econometric applications), a commony used approach, especially under the presence of a large number of candidate covariates, is to consider a subset of explantory variables, which is the model selection step. Furthermore, although econometric theory can provide some indication of possible covariates to choose when considering modelling based on causal identification, the model selection step can be implemented using one of the following statistical methodologies: 
 
