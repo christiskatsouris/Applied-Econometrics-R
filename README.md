@@ -457,6 +457,7 @@ On the other hand, an econometrician might be interested in the following resear
 - Liang, K. Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73(1), 13-22.
 - Murphy, K., Murphy, T. B., Piccarreta, R., & Gormley, I. C. (2021). Clustering longitudinal life‐course sequences using mixtures of exponential‐distance models. Journal of the Royal Statistical Society: Series A (Statistics in Society).
 - McLeod, J. D., & Fettes, D. L. (2007). Trajectories of failure: The educational careers of children with mental health problems. American Journal of Sociology, 113(3), 653-701.
+- Stone, J., Netuveli, G., & Blane, D. (2008). Modelling socioeconomic trajectories: An optimal matching approach. International Journal of Sociology and Social Policy.
 - Studer, M., & Ritschard, G. (2016). What matters in differences between life trajectories: A comparative review of sequence dissimilarity measures. Journal of the Royal Statistical Society: Series A (Statistics in Society), 179(2), 481-511.
 - Studer, M., Ritschard, G., Gabadinho, A., & Müller, N. S. (2011). Discrepancy analysis of state sequences. Sociological Methods & Research, 40(3), 471-510.
 
