@@ -446,6 +446,7 @@ On the other hand, an econometrician might be interested in the following resear
 
 ## References
 
+- Abbott, A., & Hrycak, A. (1990). Measuring resemblance in sequence data: An optimal matching analysis of musicians' careers. American Journal of Sociology, 96(1), 144-185.
 - Aisenbrey, S., & Fasang, A. (2017). The interplay of work and family trajectories over the life course: Germany and the United States in comparison. American Journal of Sociology, 122(5), 1448-1484.
 - Bester, C. A., Conley, T. G., & Hansen, C. B. (2011). Inference with dependent data using cluster covariance estimators. Journal of Econometrics, 165(2), 137-151.
 - Frech, A., & Damaske, S. (2019). Men’s income trajectories and physical and mental health at midlife. American Journal of Sociology, 124(5), 1372-1412.
