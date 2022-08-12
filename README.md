@@ -440,7 +440,7 @@ In general a macroeconomist might be interested to investigate the impact of var
 
 On the other hand, an econometrician might be interested in the following research questions:
 
-- Applying a suitable statistical procedure (e.g., econometric identification) which can be employed to determine the cluster membership of certain sub-populations, while ensuring robustness to various unobserved effects that can affect inference such as: selection bias, clustered errors, changing dynamics across waves of the longitudinal study etc. 
+- Applying a suitable statistical procedure (e.g., econometric identification) which can be employed to determine the cluster membership of certain sub-populations, while ensuring robustness to various unobserved effects that can affect inference such as: selection bias, clustered errors, changing dynamics across longitudinal  waves. 
 
 - Another relevant research question is to find suitable mechanisms in order to account for the possible presence of endogenous sorting/oselection, ensuring this way the implementation of robust econometric methodologies and estimation results (see, [Berger, Y. and Patilea, V. (2021)](https://www.sciencedirect.com/science/article/pii/S2452306221001489) and [Horrace et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0304407615001748)).
 
