@@ -440,9 +440,9 @@ In general a macroeconomist might be interested to investigate the impact of var
 
 On the other hand, an econometrician might be interested in the following research questions:
 
-- Applying a suitable statistical procedure (e.g., econometric identification) which can be employed in order to determine the cluster membership of certain sub-populations, while ensuring robustness to various unobserved effects that can affect inference such as: selection bias, clustered errors, changing dynamics across waves of the longitudinal study etc. 
+- Applying a suitable statistical procedure (e.g., econometric identification) which can be employed to determine the cluster membership of certain sub-populations, while ensuring robustness to various unobserved effects that can affect inference such as: selection bias, clustered errors, changing dynamics across waves of the longitudinal study etc. 
 
-- Another relevant research question is to find suitable mechanisms in order to account for the possible presence of endogenous sorting and/or endogenous selection, ensuring this way the implementation of robust econometric methodologies and estimation results (see, for example [Berger, Y. and Patilea, V. (2021)](https://www.sciencedirect.com/science/article/pii/S2452306221001489)).
+- Another relevant research question is to find suitable mechanisms in order to account for the possible presence of endogenous sorting/oselection, ensuring this way the implementation of robust econometric methodologies and estimation results (see, [Berger, Y. and Patilea, V. (2021)](https://www.sciencedirect.com/science/article/pii/S2452306221001489) and [Horrace et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0304407615001748)).
 
 ## References
 
@@ -453,6 +453,7 @@ On the other hand, an econometrician might be interested in the following resear
 - Frech, A., & Damaske, S. (2019). Men’s income trajectories and physical and mental health at midlife. American Journal of Sociology, 124(5), 1372-1412.
 - Gabadinho, A., Ritschard, G., Mueller, N. S., & Studer, M. (2011). Analyzing and visualizing state sequences in R with TraMineR. Journal of Statistical Software, 40(4), 1-37.
 - Gibbons, R. D., & Hedeker, D. (2000). Applications of mixed-effects models in biostatistics. Sankhyā: The Indian Journal of Statistics, Series B, 70-103.
+- Horrace, W. C., Liu, X., & Patacchini, E. (2016). Endogenous network production functions with selectivity. Journal of Econometrics, 190(2), 222-232.
 - Katsouris C. & Ierodiakonou C. (2022). A Sequence Analysis of Employment Trajectories with Cluster-Based Logistic GLM. Department of Business and Public Administration. University of Cyprus. Working paper.   
 - Lersch, P. M., Schulz, W., & Leckie, G. (2020). The variability of occupational attainment: How prestige trajectories diversified within birth cohorts over the twentieth century. American Sociological Review, 85(6), 1084-1116.
 - Liang, K. Y., & Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73(1), 13-22.
