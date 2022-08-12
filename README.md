@@ -640,6 +640,6 @@ The author greatfully acknowledges financial support from Graduate Teaching Assi
 
 If you are interested to collaborate on any of the topics discussed in this teaching page, don't hesitate to contact me at christiskatsouris@gmail.com
 
-# How to Cite a Website 
+# Historical Background
 
-See: https://www.mendeley.com/guides/web-citation-guide/ 
+$\textbf{David Cox}$ (15 July 1924 – 18 January 2022) was a British statistician and educator. His wide-ranging contributions to the field of statistics included introducing logistic regression, the proportional hazards model and the Cox process, a point process named after him. He was a professor of statistics at Birkbeck College, London, Imperial College London and the University of Oxford, and served as Warden of Nuffield College, Oxford. The first recipient of the International Prize in Statistics, he also received the Guy, George Box and Copley medals, as well as a knighthood (Source: Wikipedia). 
