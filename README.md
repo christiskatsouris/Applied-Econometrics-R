@@ -13,13 +13,13 @@ The synthesis of heterogenous data and the development of software (or coding pr
 
 In this teaching page we present four main applications which are commonly presented in empirical economic and finance studies, such that:
 
-(i)   Statistical Analysis of Binary Data based on the Generalized Linear Models (GLMs),
+$\textbf{(i)}$   Statistical Analysis of Binary Data based on the Generalized Linear Models (GLMs),
 
-(ii)  Sequence Analysis for evaluating employment trajectories, 
+$\textbf{(ii)}$  Sequence Analysis for evaluating employment trajectories, 
 
-(iii) Average Treatment Effects Estimation based on conditional mean specification forms, and 
+$\textbf{(iii)}$ Average Treatment Effects Estimation based on conditional mean specification forms, and 
 
-(iv)  Statistical Inference based on the Proportional Hazard Model which is useful for modelling the probability of default in various settings.
+$\textbf{(iv)}$  Statistical Inference based on the Proportional Hazard Model which is useful for modelling the probability of default in various settings.
 
 # [A]. Linear and Generalized Linear Models
 
