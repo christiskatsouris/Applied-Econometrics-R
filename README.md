@@ -259,16 +259,18 @@ $$g(y) = \frac{ y^{\lambda} - 1 }{ \lambda }.$$
 
 Then, the MLE methodology can be employed to determine the value of the unknown parameter $\lambda$.
 
-Classical theory for significance testing in linear regression operates on two fixxed nested models. However, in the case of LASSO selection the signicance of the covariates included in the model seems to be cumbersome and many times needs special consideration since it may not be following traditional asymptotic theory. Consider for instance the stepwise regression procedure where we start with the null model and we enter predictors one at a time, at each step choosing the predictor $j$ that gives the largest drop in residual sum of squares
+- Classical theory for significance testing in linear regression operates on two fixxed nested models. However, in the case of LASSO selection the signicance of the covariates included in the model seems to be cumbersome and many times needs special consideration since it may not be following traditional asymptotic theory. Consider for instance the stepwise regression procedure where we start with the null model and we enter predictors one at a time, at each step choosing the predictor $j$ that gives the largest drop in residual sum of squares
 
+$$ R_j = \frac{ RSS_M -  RSS_{ M \cup \{j\} } }{ \sigma^2 }.$$
 
-
+- In particular, [Lockhart et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4285373/) introduce the covariance test which provides a way to test for the significance of additional predictors using the LASSO optimization function. Furthermore, the authors in order to construct a test statistic which can be generalized under different model estimations, a strong assumption regarding the hypothesis is made, that is, there is the assumption that the parameter space under the null hypothesis is a random set which can be approximated under suitable distributional assumptions. However, the problem of assessing significance in an adaptive linear model fit by the lasso is a difficult one and different approaches have been taken in order to overcome this computational challenge. 
 
 ## References
 
 - Box, G. E., & Cox, D. R. (1964). An analysis of transformations. Journal of the Royal Statistical Society: Series B (Methodological), 26(2), 211-243.
 - Barro, R. J., & Becker, G. S. (1989). Fertility choice in a model of economic growth. Econometrica: Journal of the Econometric Society, 481-501.
 - Hansen, P. R., Lunde, A., & Nason, J. M. (2011). The model confidence set. Econometrica, 79(2), 453-497.
+- Lockhart, R., Taylor, J., Tibshirani, R. J., & Tibshirani, R. (2014). A significance test for the lasso. Annals of statistics, 42(2), 413.
 - Manski, C. F., & Thompson, T. S. (1989). Estimation of best predictors of binary response. Journal of Econometrics, 40(1), 97-123.
 - Sage, A. J., Liu, Y., & Sato, J. (2022). From Black Box to Shining Spotlight: Using Random Forest Prediction Intervals to Illuminate the Impact of Assumptions in Linear Regression. The American Statistician, (just-accepted), 1-26.
 
