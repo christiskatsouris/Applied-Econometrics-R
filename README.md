@@ -40,7 +40,12 @@ where the response corresponds to the response (or dependent) variable and the l
 
 Consider the [swiss fertility data-set](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/swiss.html) in R (see, also this [tutorial](https://rpubs.com/bmedina17/731785)). 
 
+
+<p align="center">
+
 <img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/Rplot.jpeg" width="750"/>
+
+</p>  
 
 ```R
 
@@ -286,7 +291,11 @@ Consider a cross-sectional dataset which includes the employment trajectories of
 
 Before fitting any statistical model to any form of data structure, a good practice is to do some preliminary data analysis in order to understand the nature of the given dataset. An important variable which provides insights regarding the socio-economic status across European countries is the income distribution. Furthermore, there is a vast literature on formal statistical methodologies that can be employed in order to obtain statistical significante evidence of stochastic dominance of cross-country income distributions.
 
+<p align="center">
+
 <img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/Income_Distributions.jpg" width="850"/>
+
+</p>  
 
 > Figure above displays the income distributions across main European countries based on reported annual income of the survey participants (whole population, i.e., no age restrictions) for the year 2014. Data resource: EU-SILC survey study. Data analysis is part of work done while being a Research Assistant (Special Scientist) at UCY during the academic year 2016-2017. 
 
@@ -386,13 +395,21 @@ $$H_t = \sum_{j=1}^q p_{tj} ln (  p_{tj} ),$$
 
 where q = 1,...,7 (the number of different states) and t = 1,...,48 time periods. The (aggregate) entropy statistic provides a statistical measure of the smoothness of transitions between the different states.  
 
+<p align="center">
+
 <img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/graphs_entropy_measure.jpg" width="785"/>
+
+</p>  
 
 > The entropy measure can be computed for each individual (shows the transition rates for moving between the employment states). Then, we can plot the histogram for the entropies of all individuals. In particular, there is indication for a proportion of the individuals with entropy rate around 0.3, however we are interested to identify the states of which there is often transitions to/from as well as the characteristics of individuals with frequent transitions. In addition the figure above shows the aggregate entropy measure for main European countries (EU periphery). The estimation of the aggregated entropy measure is based on monthly time-spanned data from the longitudinal wave between the years 2011 to 2014 (48 observations).  
 
 Furthermore, in the above example implemented in R the clustering of sequences with most similarities based on the OM algorithm has identified four distinct patterns of school to work transitions (i.e., employment trajectories) for the sub-population of young people. Thus, the role of statistical modelling (using Logistic regression) is exactly to provide statistical evidence on how cluster membership depends on certain covariates which capture the main socio-economic characteristics of the particular population.   
 
+<p align="center">
+
 <img src="https://github.com/christiskatsouris/Applied-Statistics-R/blob/main/data/Clustering.jpg" width="785"/>
+
+</p>  
 
 > Figure above corresponds to the Longitudinal wave of 2014 for the sub-population with age 18-22. Data resource: EU-SILC survey study. Data analysis is part of work done while being a Research Assistant (Special Scientist) at UCY during the academic year 2016-2017.
 
