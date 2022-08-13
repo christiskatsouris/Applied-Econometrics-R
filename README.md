@@ -17,7 +17,7 @@ $\textbf{(i)}$   Statistical Analysis of Binary Data based on the Generalized Li
 
 $\textbf{(ii)}$  Sequence Analysis for evaluating employment trajectories, 
 
-$\textbf{(iii)}$ Average Treatment Effects Estimation based on conditional mean specification forms, and 
+$\textbf{(iii)}$ Average Treatment Effects Estimation based on conditional mean specification forms,
 
 $\textbf{(iv)}$  Statistical Inference based on the Proportional Hazard Model which is useful for modelling the probability of default in various settings.
 
