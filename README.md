@@ -259,6 +259,11 @@ $$g(y) = \frac{ y^{\lambda} - 1 }{ \lambda }.$$
 
 Then, the MLE methodology can be employed to determine the value of the unknown parameter $\lambda$.
 
+Classical theory for significance testing in linear regression operates on two fixxed nested models. However, in the case of LASSO selection the signicance of the covariates included in the model seems to be cumbersome and many times needs special consideration since it may not be following traditional asymptotic theory. Consider for instance the stepwise regression procedure where we start with the null model and we enter predictors one at a time, at each step choosing the predictor $j$ that gives the largest drop in residual sum of squares
+
+
+
+
 ## References
 
 - Box, G. E., & Cox, D. R. (1964). An analysis of transformations. Journal of the Royal Statistical Society: Series B (Methodological), 26(2), 211-243.
