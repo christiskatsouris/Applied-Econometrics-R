@@ -468,12 +468,17 @@ On the other hand, an econometrician might be interested in the following resear
 
 - Another relevant research question is to find suitable mechanisms in order to account for the possible presence of endogenous sorting/oselection, ensuring this way the implementation of robust econometric methodologies and estimation results (see, [Berger, Y. and Patilea, V. (2021)](https://www.sciencedirect.com/science/article/pii/S2452306221001489) and [Horrace et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0304407615001748)).
 
+- Lastly, an implementation of a job-search-mathing approach that accommodates such employment trajectories, especially from the viewpoint of cluster membership modeling, would be an additional aspect worth investigating further but it would require both a more complex econometric identification and estimation strategy as well as further information from a suitable dataset. 
+
+> According to [Carneiroa et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002839), the main idea in these models is that a worker’s future earnings and employment prospects will depend on his/her personal characteristics that are transferable across jobs, the job-match specific component of the current job, the job-to-job transitions over the life cycle, and the unemployment shocks. In this framework wage persistence plays an important role in the sense that an individual’s job search aspirations are largely determined by the job-specific component of the current job, which depends on previous wage offers, with job changes induced by offers of higher wages.
+
 ## References
 
 - Abbott, A., & Hrycak, A. (1990). Measuring resemblance in sequence data: An optimal matching analysis of musicians' careers. American Journal of Sociology, 96(1), 144-185.
 - Aisenbrey, S., & Fasang, A. (2017). The interplay of work and family trajectories over the life course: Germany and the United States in comparison. American Journal of Sociology, 122(5), 1448-1484.
 - Berger, Y. G., & Patilea, V. (2021). A semi-parametric empirical likelihood approach for conditional estimating equations under endogenous selection. Econometrics and Statistics.
 - Bester, C. A., Conley, T. G., & Hansen, C. B. (2011). Inference with dependent data using cluster covariance estimators. Journal of Econometrics, 165(2), 137-151.
+- Carneiro, A., Portugal, P., Raposo, P., & Rodrigues, P. M. (2022). The persistence of wages. Journal of Econometrics.
 - Frech, A., & Damaske, S. (2019). Men’s income trajectories and physical and mental health at midlife. American Journal of Sociology, 124(5), 1372-1412.
 - Gabadinho, A., Ritschard, G., Mueller, N. S., & Studer, M. (2011). Analyzing and visualizing state sequences in R with TraMineR. Journal of Statistical Software, 40(4), 1-37.
 - Gibbons, R. D., & Hedeker, D. (2000). Applications of mixed-effects models in biostatistics. Sankhyā: The Indian Journal of Statistics, Series B, 70-103.
