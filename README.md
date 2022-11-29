@@ -661,15 +661,11 @@ The author (Christis G. Katsouris) declares no conflicts of interest.
 
 The proposed Course Syllabus is currently under development and has not been officially undergone quality checks. All rights reserved.  
 
-Any errors or omissions are the responsibility of the author.
-
-Any views and opinions expressed herein are those of the author. The author accepts no liability for any loss or damage a person suffers because that person has directly or indirectly relied on any information found on this website.
+Any errors or omissions are the responsibility of the author. Any views and opinions expressed herein are those of the author. 
 
 # Acknowledgments
 
 The author greatfully acknowledges financial support from Graduate Teaching Assistantships at the School of Economic, Social and Political Sciences of the University of Southampton as well as funding from Research Grants of various interdisciplinary Centers of research excellence based at the University of Cyprus (UCY) as well as at University College London (UCL). Furthermore, the author gratefully acknowledges financial support from the Vice-Chancellor's PhD Scholarship of the University of Southampton, for the duration of the academic years 2018 to 2021. 
-
-If you are interested to collaborate on any of the topics discussed in this teaching page, don't hesitate to contact me at christiskatsouris@gmail.com
 
 # Historical Background
 
@@ -677,7 +673,5 @@ If you are interested to collaborate on any of the topics discussed in this teac
 > 
 > $\textit{''If I have been able to see further, it was only because I stood on the shoulders of giants."}$
 > $- \text{Isaac Newton, 1676}$ 
-
-$\textbf{David Cox}$ (15 July 1924 – 18 January 2022) was a British statistician and educator. His wide-ranging contributions to the field of statistics included introducing logistic regression, the proportional hazards model and the Cox process, a point process named after him. He was a professor of statistics at Birkbeck College, London, Imperial College London and the University of Oxford, and served as Warden of Nuffield College, Oxford. The first recipient of the International Prize in Statistics, he also received the Guy, George Box and Copley medals, as well as a knighthood. (Source: [Wikipedia](https://en.wikipedia.org/wiki/David_Cox_(statistician))). 
 
 $\textbf{Ronald Fisher}$ (17 February 1890 – 29 July 1962) was a British polymath who was active as a mathematician, statistician, biologist, geneticist, and academic. For his work in statistics, he has been described as "a genius who almost single-handedly created the foundations for modern statistical science" and "the single most important figure in 20th century statistics". In genetics, his work used mathematics to combine Mendelian genetics and natural selection; this contributed to the revival of Darwinism in the early 20th-century revision of the theory of evolution known as the modern synthesis. For his contributions to biology, Fisher has been called "the greatest of Darwin’s successors". From 1919, he worked at the Rothamsted Experimental Station for 14 years; there, he analysed its immense body of data from crop experiments since the 1840s, and developed the analysis of variance (ANOVA). He established his reputation there in the following years as a biostatistician. Together with J. B. S. Haldane and Sewall Wright, Fisher is known as one of the three principal founders of population genetics. His contributions to statistics include promoting the method of maximum likelihood and deriving the properties of maximum likelihood estimators, fiducial inference, the derivation of various sampling distributions, founding principles of the design of experiments, and much more. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Ronald_Fisher)).
